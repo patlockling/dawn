@@ -22,11 +22,6 @@
             "text_style": "subtitle"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -49,6 +44,11 @@
             "show_dynamic_checkout": false
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -60,19 +60,36 @@
             "text": "",
             "text_style": "body"
           }
+        },
+        "6be82f1c-946f-4779-9efb-1d3484f5aaef": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "017e3f54-7eb8-4158-b2f5-1d99a9f9900f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.meal.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "subtitle",
-        "description",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "share",
-        "34d24f7a-c13d-4720-a768-b958f6609b94"
+        "34d24f7a-c13d-4720-a768-b958f6609b94",
+        "6be82f1c-946f-4779-9efb-1d3484f5aaef",
+        "017e3f54-7eb8-4158-b2f5-1d99a9f9900f"
       ],
       "settings": {
         "enable_sticky_info": false,
