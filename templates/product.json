@@ -15,13 +15,6 @@
           "settings": {
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -54,18 +47,11 @@
           "settings": {
           }
         },
-        "34d24f7a-c13d-4720-a768-b958f6609b94": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "017e3f54-7eb8-4158-b2f5-1d99a9f9900f": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ingredients",
-            "content": "<p>{{ product.metafields.meal.ingredients | metafield_tag }}{{ product.metafields.meal.contains.value }}<\/p>",
+            "heading": "Dietary Information",
+            "content": "<p><strong>Ingredients:<\/strong><\/p><p>{{ product.metafields.meal.ingredients | metafield_tag }}<\/p><p>{{ product.metafields.meal.contains.value }}<\/p><p><strong>General Warning:<\/strong><br\/>Meals are prepared in a kitchen that contains fish, milk, sesame, crustaceans, soy, nuts, tree nuts, gluten, lupin and sulphites. Although best practises are used in preparing the meal, the meal may contain traces of these allergens.<\/p><p>While reasonable efforts have been made to ensure the accuracy of this information at the time of publication, there is no guarantee that this information is accurate and complete and the information above is subject to change without prior notice.<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -78,21 +64,37 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "361a13b8-a3c6-41d2-857c-c9fc3b788125": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Preparation",
+            "content": "<p>{{ product.metafields.meal.preparation.value }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "185d441d-52c8-4d77-8da1-472d26fb93a6": {
+          "type": "text",
+          "settings": {
+            "text": "Meals are prepared in a kitchen that contains fish, milk, sesame, crustaceans, soy, nuts, tree nuts, gluten, lupin and sulphites. Although best practises are used in preparing the meal, the meal may contain traces of these allergens.While reasonable efforts have been made to ensure the accuracy of this information at the time of publication, there is no guarantee that this information is accurate and complete and the information above is subject to change without prior notice.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share",
-        "34d24f7a-c13d-4720-a768-b958f6609b94",
         "017e3f54-7eb8-4158-b2f5-1d99a9f9900f",
-        "d1de6a22-5efa-4cfc-98e1-288b3724d124"
+        "d1de6a22-5efa-4cfc-98e1-288b3724d124",
+        "361a13b8-a3c6-41d2-857c-c9fc3b788125",
+        "185d441d-52c8-4d77-8da1-472d26fb93a6"
       ],
       "settings": {
         "enable_sticky_info": false,
