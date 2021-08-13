@@ -71,7 +71,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients",
-            "content": "<p>{{ product.metafields.meal.ingredients | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.meal.ingredients | metafield_tag }}{{ product.metafields.meal.contains.value }}<\/p>",
             "page": "",
             "icon": "none"
           }
