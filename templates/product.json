@@ -73,13 +73,6 @@
             "page": "",
             "icon": "none"
           }
-        },
-        "185d441d-52c8-4d77-8da1-472d26fb93a6": {
-          "type": "text",
-          "settings": {
-            "text": "Meals are prepared in a kitchen that contains fish, milk, sesame, crustaceans, soy, nuts, tree nuts, gluten, lupin and sulphites. Although best practises are used in preparing the meal, the meal may contain traces of these allergens.While reasonable efforts have been made to ensure the accuracy of this information at the time of publication, there is no guarantee that this information is accurate and complete and the information above is subject to change without prior notice.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -93,8 +86,7 @@
         "share",
         "017e3f54-7eb8-4158-b2f5-1d99a9f9900f",
         "d1de6a22-5efa-4cfc-98e1-288b3724d124",
-        "361a13b8-a3c6-41d2-857c-c9fc3b788125",
-        "185d441d-52c8-4d77-8da1-472d26fb93a6"
+        "361a13b8-a3c6-41d2-857c-c9fc3b788125"
       ],
       "settings": {
         "enable_sticky_info": false,
