@@ -88,11 +88,43 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "162885260804a4151a": {
+      "type": "newsletter",
+      "blocks": {
+        "162885260804a4151a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe and Save!"
+          }
+        },
+        "162885260804a4151a-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Sign up to our newsletter to get 20% off your next order and keep up to date with new restaurants.<\/p>"
+          }
+        },
+        "162885260804a4151a-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "162885260804a4151a-0",
+        "162885260804a4151a-1",
+        "162885260804a4151a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "162885260804a4151a"
   ]
 }
