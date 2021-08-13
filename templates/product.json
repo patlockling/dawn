@@ -61,17 +61,20 @@
             "text_style": "body"
           }
         },
-        "6be82f1c-946f-4779-9efb-1d3484f5aaef": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
-        },
         "017e3f54-7eb8-4158-b2f5-1d99a9f9900f": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients",
             "content": "<p>{{ product.metafields.meal.ingredients | metafield_tag }}{{ product.metafields.meal.contains.value }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
+        "d1de6a22-5efa-4cfc-98e1-288b3724d124": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Storage",
+            "content": "<p>{{ product.metafields.meal.storage | metafield_tag }}<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -88,8 +91,8 @@
         "description",
         "share",
         "34d24f7a-c13d-4720-a768-b958f6609b94",
-        "6be82f1c-946f-4779-9efb-1d3484f5aaef",
-        "017e3f54-7eb8-4158-b2f5-1d99a9f9900f"
+        "017e3f54-7eb8-4158-b2f5-1d99a9f9900f",
+        "d1de6a22-5efa-4cfc-98e1-288b3724d124"
       ],
       "settings": {
         "enable_sticky_info": false,
