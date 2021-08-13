@@ -57,7 +57,7 @@
         "34d24f7a-c13d-4720-a768-b958f6609b94": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.meal.contains.value }}",
+            "text": "",
             "text_style": "body"
           }
         }
