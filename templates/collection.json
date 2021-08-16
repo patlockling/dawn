@@ -3,40 +3,12 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false
+        "show_collection_description": true,
+        "show_collection_image": true
       }
     },
     "1628858377ff05b09c": {
       "type": "rich-text",
-      "blocks": {
-        "1628858377ff05b09c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "1628858377ff05b09c-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1628858377ff05b09c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1628858377ff05b09c-0",
-        "1628858377ff05b09c-1",
-        "1628858377ff05b09c-2"
-      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
