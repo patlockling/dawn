@@ -69,7 +69,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Preparation",
-            "content": "<p>{{ product.metafields.meal.preparation.value }}<\/p>",
+            "content": "<p>{{ product.metafields.meal.instructions_1 | metafield_tag }}{{ product.metafields.meal.instructions_2 | metafield_tag }}<\/p>",
             "page": "",
             "icon": "none"
           }
