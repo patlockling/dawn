@@ -7,6 +7,9 @@
     "sale_badge_color_scheme": "accent-2",
     "page_width": "1600",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/ChefPrep-logo.png",
+    "checkout_accent_color": "#3a3a3a",
+    "checkout_button_color": "#3a3a3a",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
