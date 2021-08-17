@@ -21,21 +21,39 @@
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We plan to expand our delivery areas to additional locations, so please stay tuned for future updates.<\/p><p>Meals are delivered every <strong>Monday <\/strong>(between 12am - 5pm). Orders need to be placed before <strong>5:30pm on a Friday<\/strong> for delivery the next Monday. <\/p>"
+            "text": "<p>We plan to expand our delivery areas to additional locations, so please stay tuned for future updates.<\/p><p>Meals are delivered every <strong>Monday <\/strong>(between 12am - 5pm). Orders need to be placed before <strong>5:30pm on a Friday<\/strong> for delivery the next Monday.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629205306ef91ebc3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16292107120440baca": {
+      "type": "rich-text",
+      "blocks": {
+        "16292107120440baca-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Additional Delivery Details: <\/strong><\/p><p>• Each order has a flat delivery fee of $15 per order. Orders over $200 will receive free delivery.<\/p><p>• We offer zero contact delivery.<\/p><p>• Your order will be transported in a refrigerated truck and will arrive in a box with ice packs and insulation to keep the meals chilled.<\/p><p>• Our meal packages are freezer safe and microwave and oven safe for up to 20 minutes at 220 degrees celsius. Our box and meal packages are environmentally friendly and recyclable.<\/p><p>• You will receive a text message with a tracking link before the delivery date.<\/p><p>• You will receive a text message on the day of delivery to notify you of approximate delivery time.<\/p><p>• You will receive a text message and email after delivery has been completed.<\/p><p>• As deliveries may be left unattended in a safe area (at the discretion of our delivery provider), please ensure that you provide all relevant delivery instructions in the checkout process. This may include foyer access codes, instructions on where to leave the package if you are not home, etc.<\/p><p>For any service queries or support queries, please email: <a><span style=\"text-decoration:underline\">hello@chefprep.com.au<\/span><\/a>.<\/p><p>For any urgent customer inquiries, please contact us at 08 6244 5441. Our customer support line will be available between 9am - 6pm (Australian Eastern Standard Time) Monday to Friday.<\/p>"
           }
         },
-        "1629205306ef91ebc3-2": {
+        "16292107120440baca-2": {
           "type": "button",
           "settings": {
             "button_label": "Order now",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "1629205306ef91ebc3-1",
-        "1629205306ef91ebc3-2"
+        "16292107120440baca-1",
+        "16292107120440baca-2"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -46,6 +64,7 @@
   "order": [
     "main",
     "1629205175d04038c6",
-    "1629205306ef91ebc3"
+    "1629205306ef91ebc3",
+    "16292107120440baca"
   ]
 }
