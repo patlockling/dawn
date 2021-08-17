@@ -332,7 +332,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-carly_d6767d27-0cd8-4b80-a1c7-de1dbd053800.png",
             "title": "",
-            "text": "<p>Loved their innovative new way of bringing ready made, delicious meals straight to your home.<\/p><p><\/p><p><strong>Carly<\/strong><\/p>"
+            "text": "<p>\"Loved their innovative new way of bringing ready made, delicious meals straight to your home.\"<\/p><p><\/p><p><strong>Carly<\/strong><\/p>"
           }
         },
         "38bef58b-391f-4262-aa1f-7731d428b6cb": {
@@ -340,7 +340,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-shereen.png",
             "title": "",
-            "text": "<p>Perfect for now while we are in lockdown and an't go out a lot and kids are home as well.<\/p><p><\/p><p><strong>Shereen<\/strong><\/p>"
+            "text": "<p>\"Perfect for now while we are in lockdown and an't go out a lot and kids are home as well.\"<\/p><p><\/p><p><strong>Shereen<\/strong><\/p>"
           }
         }
       },
@@ -352,13 +352,13 @@
       ],
       "settings": {
         "title": "What our customers are saying",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     }
   },
