@@ -47,14 +47,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "ebe62f84-fec0-4a9c-80c0-72429fecd59d": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ChefPrep-logo.png",
-              "image_width": 110,
-              "alignment": ""
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -64,7 +56,6 @@
           }
         },
         "block_order": [
-          "ebe62f84-fec0-4a9c-80c0-72429fecd59d",
           "footer-0"
         ],
         "settings": {
