@@ -166,6 +166,7 @@
         "16288530998201db34-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/heat_meal.png",
             "title": "3. Heat and enjoy",
             "text": ""
           }
