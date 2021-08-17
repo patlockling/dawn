@@ -11,42 +11,69 @@
         "1629205175d04038c6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner"
+            "heading": "About Us"
           }
         },
         "1629205175d04038c6-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1629205175d04038c6-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "We are ChefPrep and we are revolutionising meal prep."
           }
         }
       },
       "block_order": [
         "1629205175d04038c6-0",
-        "1629205175d04038c6-1",
-        "1629205175d04038c6-2"
+        "1629205175d04038c6-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Delhi_Banner_Image.png",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
+    },
+    "1629205306ef91ebc3": {
+      "type": "rich-text",
+      "blocks": {
+        "1629205306ef91ebc3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are ChefPrep and we are revolutionising meal prep.",
+            "heading_size": "h2"
+          }
+        },
+        "1629205306ef91ebc3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ChefPrep was born out of our own personal frustration with ready-made meals and existing meal delivery services. We grew tired of spending hours on weekends preparing our meals for the following week and we weren’t satisfied with the taste, quality or convenience of meal kit delivery services or mass manufactured ready-made meals. <br\/><br\/>So we decided to take matters into our own hands and set up an online marketplace where you can order your weekly ready-made meals from premium, award winning restaurants for an affordable price. Not only are ChefPrep meals delivered to your door, they only require heating or minimal finishing and are specially designed by our restaurant partners to last in the freezer for up to 6 months and to maintain their taste and quality on reheating. <br\/><br\/>We feel privileged to work with some of the finest restaurants and chefs in Australia and to have their support and guidance on our journey. We would not exist without our amazing restaurant partners who create each delicious meal with tender love and care. <br\/><br\/>While we want to leave a strong impression on Australian customers, we don’t want to leave a mark on the environment and this is why all of the meals are delivered in biodegradable packaging which is freezer, oven and microwave safe. Also, all of our meals can be frozen which reduces food wastage.<\/p>"
+          }
+        },
+        "1629205306ef91ebc3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1629205306ef91ebc3-0",
+        "1629205306ef91ebc3-1",
+        "1629205306ef91ebc3-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
-    "1629205175d04038c6"
+    "1629205175d04038c6",
+    "1629205306ef91ebc3"
   ]
 }
