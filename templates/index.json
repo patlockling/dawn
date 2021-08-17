@@ -181,7 +181,7 @@
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
@@ -305,6 +305,59 @@
         "image_padding": false,
         "show_view_all": false
       }
+    },
+    "1629167547f91b423f": {
+      "type": "multicolumn",
+      "blocks": {
+        "1629167547f91b423f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-nick.png",
+            "title": "",
+            "text": "<p>\"Feedback from our family is one of raving excitement, food is great, well beyond our initial expectations, it's almost like you are in the restaurant and the support - it is second to none!\"<\/p><p><strong>Nick<\/strong><\/p>"
+          }
+        },
+        "1629167547f91b423f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-lina.png",
+            "title": "",
+            "text": "<p>\"We are loving all the meals thus far!\"<br\/><\/p><p><strong>Lina<\/strong><\/p>"
+          }
+        },
+        "1629167547f91b423f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-carly_d6767d27-0cd8-4b80-a1c7-de1dbd053800.png",
+            "title": "",
+            "text": "<p>Loved their innovative new way of bringing ready made, delicious meals straight to your home.<\/p><p><\/p><p><strong>Carly<\/strong><\/p>"
+          }
+        },
+        "38bef58b-391f-4262-aa1f-7731d428b6cb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-shereen.png",
+            "title": "",
+            "text": "<p>Perfect for now while we are in lockdown and an't go out a lot and kids are home as well.<\/p><p><\/p><p><strong>Shereen<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629167547f91b423f-0",
+        "1629167547f91b423f-1",
+        "1629167547f91b423f-2",
+        "38bef58b-391f-4262-aa1f-7731d428b6cb"
+      ],
+      "settings": {
+        "title": "What our customers are saying",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -314,6 +367,7 @@
     "16288530998201db34",
     "1629167135fb24c499",
     "162885260804a4151a",
-    "16291666415b86e5bb"
+    "16291666415b86e5bb",
+    "1629167547f91b423f"
   ]
 }
