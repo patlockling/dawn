@@ -7,13 +7,6 @@
         "show_collection_image": true
       }
     },
-    "1628858377ff05b09c": {
-      "type": "rich-text",
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -31,7 +24,6 @@
   },
   "order": [
     "banner",
-    "1628858377ff05b09c",
     "product-grid"
   ]
 }
