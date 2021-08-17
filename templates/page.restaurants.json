@@ -91,18 +91,6 @@
           "settings": {
             "collection": "stix"
           }
-        },
-        "7bda42df-cf6e-4499-903f-f7939bd5dbc4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "2393d096-08e2-4252-89e9-ac6b68c18574": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
@@ -119,9 +107,7 @@
         "4eaff548-c657-4b2e-82be-2f07def6e7f2",
         "4958c044-9439-490c-94db-afc0db3929a3",
         "0bd39c68-2aed-4e1e-81f0-02187c97ba58",
-        "fe1672cb-473d-4dd9-8aac-774ea9f2c817",
-        "7bda42df-cf6e-4499-903f-f7939bd5dbc4",
-        "2393d096-08e2-4252-89e9-ac6b68c18574"
+        "fe1672cb-473d-4dd9-8aac-774ea9f2c817"
       ],
       "settings": {
         "title": "Collections",
