@@ -5,85 +5,127 @@
       "settings": {
       }
     },
-    "1629183964bf186493": {
+    "162918591593fab236": {
       "type": "collection-list",
       "blocks": {
-        "1629183964bf186493-0": {
+        "162918591593fab236-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "albis-taverna"
+            "collection": ""
           }
         },
-        "1629183964bf186493-1": {
+        "162918591593fab236-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bellevue-cottage-by-antoine"
+            "collection": ""
           }
         },
-        "1629183964bf186493-2": {
+        "162918591593fab236-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bondi-hardware"
+            "collection": ""
           }
         },
-        "03ec4709-7a0e-4c7d-986f-bf149cb81a88": {
+        "61f23a55-f326-4ec2-8d08-d469fc6dfda2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "delhi-o-delhi"
+            "collection": ""
           }
         },
-        "cbdd0b44-3864-4a72-a15f-724592f680fd": {
+        "3938aab8-574c-478f-a5b7-da6d098392f6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "devine-food-and-wine"
+            "collection": ""
           }
         },
-        "79675537-0867-4026-b19b-1bb8838d4283": {
+        "9dd5205d-095f-48eb-a704-4c577e73af10": {
           "type": "featured_collection",
           "settings": {
-            "collection": "foodie-del-mar"
+            "collection": ""
           }
         },
-        "3be49692-bfab-43e4-b2e0-b3f036c9e47a": {
+        "53bbf8c2-630e-4cac-a1c0-844009567028": {
           "type": "featured_collection",
           "settings": {
-            "collection": "huxtons-at-bronte"
+            "collection": ""
           }
         },
-        "1f358f34-6451-451b-857c-1c0c3331c1f1": {
+        "f518cc35-76d8-4811-853e-dae3bbede6c6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "i-maccheroni-by-rustic-kitchen"
+            "collection": ""
           }
         },
-        "e2864ddd-aa57-44ef-b1c0-a09c7fbe6f56": {
+        "828ccf4a-b30b-43fc-9766-7ddb427ba99f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "juicy-banana-by-big-sam-young"
+            "collection": ""
           }
         },
-        "804247e3-6935-445b-816f-44109929e882": {
+        "473f1c2c-58b1-4c4b-87d7-247fc2e0fba8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "little-lagos"
+            "collection": ""
+          }
+        },
+        "69e09f2e-81f8-470e-ac55-8a3d37d6c0f3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "5970528d-5374-46d5-a6b3-86dc8470f3d5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "a0feefb0-c271-4cac-b25c-ac059b9f44fb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "42b8a6ad-9b9d-4d2e-bfbe-b972e5f3ae15": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "e7f53c43-21bb-4396-af9c-9762c18caebd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "953562e6-dba8-42c3-9327-d9f83f4a9677": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "1629183964bf186493-0",
-        "1629183964bf186493-1",
-        "1629183964bf186493-2",
-        "03ec4709-7a0e-4c7d-986f-bf149cb81a88",
-        "cbdd0b44-3864-4a72-a15f-724592f680fd",
-        "79675537-0867-4026-b19b-1bb8838d4283",
-        "3be49692-bfab-43e4-b2e0-b3f036c9e47a",
-        "1f358f34-6451-451b-857c-1c0c3331c1f1",
-        "e2864ddd-aa57-44ef-b1c0-a09c7fbe6f56",
-        "804247e3-6935-445b-816f-44109929e882"
+        "162918591593fab236-0",
+        "162918591593fab236-1",
+        "162918591593fab236-2",
+        "61f23a55-f326-4ec2-8d08-d469fc6dfda2",
+        "3938aab8-574c-478f-a5b7-da6d098392f6",
+        "9dd5205d-095f-48eb-a704-4c577e73af10",
+        "53bbf8c2-630e-4cac-a1c0-844009567028",
+        "f518cc35-76d8-4811-853e-dae3bbede6c6",
+        "828ccf4a-b30b-43fc-9766-7ddb427ba99f",
+        "473f1c2c-58b1-4c4b-87d7-247fc2e0fba8",
+        "69e09f2e-81f8-470e-ac55-8a3d37d6c0f3",
+        "5970528d-5374-46d5-a6b3-86dc8470f3d5",
+        "a0feefb0-c271-4cac-b25c-ac059b9f44fb",
+        "42b8a6ad-9b9d-4d2e-bfbe-b972e5f3ae15",
+        "e7f53c43-21bb-4396-af9c-9762c18caebd",
+        "953562e6-dba8-42c3-9327-d9f83f4a9677"
       ],
       "settings": {
-        "title": "",
-        "image_ratio": "adapt",
+        "title": "Collections",
+        "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": false,
         "image_padding": false,
@@ -93,6 +135,6 @@
   },
   "order": [
     "main",
-    "1629183964bf186493"
+    "162918591593fab236"
   ]
 }
