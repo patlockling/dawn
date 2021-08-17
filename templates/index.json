@@ -144,38 +144,99 @@
         "show_vendor": true
       }
     },
-    "image_text": {
-      "type": "image-with-text",
+    "16288530998201db34": {
+      "type": "multicolumn",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "16288530998201db34-0": {
+          "type": "column",
           "settings": {
-            "heading": "Image with text"
+            "image": "shopify:\/\/shop_images\/brooke-lark.jpg",
+            "title": "1. Choose Meals from Multiple Restaurants",
+            "text": ""
           }
         },
-        "text": {
-          "type": "text",
+        "16288530998201db34-1": {
+          "type": "column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "2. Select Delivery Date and Time",
+            "text": ""
           }
         },
-        "button": {
-          "type": "button",
+        "16288530998201db34-2": {
+          "type": "column",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "3. Heat and enjoy",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "16288530998201db34-0",
+        "16288530998201db34-1",
+        "16288530998201db34-2"
       ],
       "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "title": "How it works",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1629167135fb24c499": {
+      "type": "multicolumn",
+      "blocks": {
+        "1629167135fb24c499-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-4-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1629167135fb24c499-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-5-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1629167135fb24c499-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-9-2.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "d6d933c9-ec71-4c74-8121-a587a26a50e9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-13-2.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1629167135fb24c499-0",
+        "1629167135fb24c499-1",
+        "1629167135fb24c499-2",
+        "d6d933c9-ec71-4c74-8121-a587a26a50e9"
+      ],
+      "settings": {
+        "title": "Coming Soon",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "162885260804a4151a": {
@@ -209,46 +270,40 @@
         "full_width": true
       }
     },
-    "16288530998201db34": {
-      "type": "multicolumn",
+    "16291666415b86e5bb": {
+      "type": "collection-list",
       "blocks": {
-        "16288530998201db34-0": {
-          "type": "column",
+        "16291666415b86e5bb-0": {
+          "type": "featured_collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brooke-lark.jpg",
-            "title": "1.",
-            "text": "<p>Choose Meals from Multiple Restaurants<\/p>"
+            "collection": ""
           }
         },
-        "16288530998201db34-1": {
-          "type": "column",
+        "16291666415b86e5bb-1": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "collection": "albis-taverna"
           }
         },
-        "16288530998201db34-2": {
-          "type": "column",
+        "16291666415b86e5bb-2": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "collection": ""
           }
         }
       },
       "block_order": [
-        "16288530998201db34-0",
-        "16288530998201db34-1",
-        "16288530998201db34-2"
+        "16291666415b86e5bb-0",
+        "16291666415b86e5bb-1",
+        "16291666415b86e5bb-2"
       ],
       "settings": {
-        "title": "How it works",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "title": "Featured Restaurants",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
       }
     }
   },
@@ -256,8 +311,9 @@
     "image_banner",
     "16288526342842f579",
     "featured_products",
-    "image_text",
+    "16288530998201db34",
+    "1629167135fb24c499",
     "162885260804a4151a",
-    "16288530998201db34"
+    "16291666415b86e5bb"
   ]
 }
