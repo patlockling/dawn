@@ -22,8 +22,8 @@
 
       {%- liquid
         assign columns = section.blocks.size
-        if columns > 4
-          assign columns = 4
+        if columns > 3
+          assign columns = 3
         endif
       -%}
 
@@ -84,7 +84,7 @@
 
                   {%- if block.settings.collection.description != blank -%}
                     <p class="card__caption">
-                      {{- block.settings.collection.description | strip_html | truncatewords: 18 -}}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
+                      {{- block.settings.collection.description | strip_html | truncatewords: 12 -}}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
                     </p>
                   {%- endif -%}
                 </div>
