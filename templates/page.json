@@ -25,17 +25,38 @@
           "settings": {
             "collection": "bondi-hardware"
           }
+        },
+        "03ec4709-7a0e-4c7d-986f-bf149cb81a88": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "delhi-o-delhi"
+          }
+        },
+        "cbdd0b44-3864-4a72-a15f-724592f680fd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "devine-food-and-wine"
+          }
+        },
+        "79675537-0867-4026-b19b-1bb8838d4283": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "foodie-del-mar"
+          }
         }
       },
       "block_order": [
         "1629183964bf186493-0",
         "1629183964bf186493-1",
-        "1629183964bf186493-2"
+        "1629183964bf186493-2",
+        "03ec4709-7a0e-4c7d-986f-bf149cb81a88",
+        "cbdd0b44-3864-4a72-a15f-724592f680fd",
+        "79675537-0867-4026-b19b-1bb8838d4283"
       ],
       "settings": {
         "title": "",
         "image_ratio": "adapt",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": true
