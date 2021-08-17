@@ -47,19 +47,19 @@
         "3be49692-bfab-43e4-b2e0-b3f036c9e47a": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "huxtons-at-bronte"
           }
         },
         "1f358f34-6451-451b-857c-1c0c3331c1f1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "i-maccheroni-by-rustic-kitchen"
           }
         },
         "e2864ddd-aa57-44ef-b1c0-a09c7fbe6f56": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "juicy-banana-by-big-sam-young"
           }
         },
         "804247e3-6935-445b-816f-44109929e882": {
@@ -79,6 +79,12 @@
           "settings": {
             "collection": ""
           }
+        },
+        "9a407544-4e79-4586-85aa-f7b2c2d18068": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -93,7 +99,8 @@
         "e2864ddd-aa57-44ef-b1c0-a09c7fbe6f56",
         "804247e3-6935-445b-816f-44109929e882",
         "05a5062a-7392-4995-b216-617d2562f3eb",
-        "4f3c26ff-6507-44f8-a368-be0ddd81c02f"
+        "4f3c26ff-6507-44f8-a368-be0ddd81c02f",
+        "9a407544-4e79-4586-85aa-f7b2c2d18068"
       ],
       "settings": {
         "title": "",
