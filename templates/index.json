@@ -150,7 +150,7 @@
         "16288530998201db34-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brooke-lark.jpg",
+            "image": "shopify:\/\/shop_images\/Choose-meal.png",
             "title": "1. Choose Meals from Multiple Restaurants",
             "text": ""
           }
@@ -158,6 +158,7 @@
         "16288530998201db34-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Delivery-van.png",
             "title": "2. Select Delivery Date and Time",
             "text": ""
           }
