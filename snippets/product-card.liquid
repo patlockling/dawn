@@ -78,6 +78,11 @@
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}" aria-hidden="true">{{ 'products.product.on_sale' | t }}</span>
           {%- endif -%}
         </div>
+        <form method="post" action="/cart/add">
+			<input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+          	<input min="1" type="number" id="quantity" name="quantity" value="1"/>
+			<input type="submit" value="Add to cart" class="btn" />
+		</form>
       </div>
     </div>
 
