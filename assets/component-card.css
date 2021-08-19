@@ -161,7 +161,7 @@
   padding-right: 1.2rem;
   
   /* CUSTOM: ADJUSTING TEXT HEIGHT   */
-  min-height: 5rem;
+  min-height: 5.5rem;
 }
 
 .card-information__wrapper {
@@ -175,7 +175,7 @@
 
 .card-information__wrapper > .price {
   color: rgb(var(--color-foreground));
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-information__wrapper > *:not(.visually-hidden:first-child) + * {
