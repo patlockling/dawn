@@ -159,6 +159,7 @@
 .card-information__text {
   display: block;
   padding-right: 1.2rem;
+  min-height: 4rem;
 }
 
 .card-information__wrapper {
