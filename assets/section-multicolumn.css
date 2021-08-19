@@ -125,7 +125,8 @@
   }
 
   .multicolumn-list.slider .multicolumn-list__item {
-    width: calc(100% - 3rem);
+/*     width: calc(100% - 3rem); */
+    width: 50%;
   }
 
   .multicolumn-list.slider .multicolumn-list__item + .multicolumn-list__item {
