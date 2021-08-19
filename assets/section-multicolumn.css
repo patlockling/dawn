@@ -117,6 +117,7 @@
   .multicolumn-list__item {
     margin: 0 0 1rem;
     padding: 0;
+    width: 50%;
   }
 
   .multicolumn-list:not(.slider) {
@@ -125,8 +126,7 @@
   }
 
   .multicolumn-list.slider .multicolumn-list__item {
-/*     width: calc(100% - 3rem); */
-    width: 50%;
+    width: calc(100% - 3rem);
   }
 
   .multicolumn-list.slider .multicolumn-list__item + .multicolumn-list__item {
