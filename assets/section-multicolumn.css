@@ -117,7 +117,9 @@
   .multicolumn-list__item {
     margin: 0 0 1rem;
     padding: 0;
-    width: 50%;
+    
+    /* custom */
+    width: 50% !important;
   }
 
   .multicolumn-list:not(.slider) {
