@@ -168,7 +168,7 @@
   width: 100%;
   
   /* CUSTOM: ADJUSTING TEXT HEIGHT   */
-  min-height: 10rem;
+  min-height: 14rem;
 }
 
 .card-information__wrapper > * {
