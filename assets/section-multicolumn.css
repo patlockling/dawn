@@ -146,7 +146,10 @@
 
   .grid--2-col-tablet .multicolumn-list__item {
     margin-top: 1rem;
-    max-width: 50%;
+    
+/* custom */
+/*     max-width: 50%; */
+    max-width: 25%;
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
@@ -160,7 +163,9 @@
 
 @media screen and (min-width: 990px) {
   .grid--2-col-tablet.grid--4-col-desktop .multicolumn-list__item {
-    max-width: 25%;
+   /*  custom   */
+/*     max-width: 25%; */
+    max-width: 12.5%;
   }
 
   .grid--2-col-tablet.grid--4-col-desktop
