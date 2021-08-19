@@ -4,6 +4,9 @@
 
 .main-page-title {
   margin-bottom: 3rem;
+
+  /* custom  */
+  text-align: center; 
 }
 
 @media screen and (min-width: 750px) {
