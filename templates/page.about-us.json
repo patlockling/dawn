@@ -10,6 +10,7 @@
       "blocks": {
         "1629205175d04038c6-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "About Us"
           }
