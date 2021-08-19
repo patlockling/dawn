@@ -159,14 +159,16 @@
 .card-information__text {
   display: block;
   padding-right: 1.2rem;
- 
+  
+  /* CUSTOM: ADJUSTING TEXT HEIGHT   */
+  min-height: 5rem;
 }
 
 .card-information__wrapper {
   width: 100%;
   
   /* CUSTOM: ADJUSTING TEXT HEIGHT   */
-  min-height: 6rem;
+  min-height: 10rem;
 }
 
 .card-information__wrapper > * {
