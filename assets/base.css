@@ -748,12 +748,13 @@ summary::-webkit-details-marker {
 }
 
 .title-wrapper-with-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+/*   display: flex; */
+/*   justify-content: space-between; */
+/*   align-items: flex-end; */
   gap: 1rem;
   margin: 4rem 0 3rem;
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; */
+  text-align:center;
 }
 
 .title--primary {
