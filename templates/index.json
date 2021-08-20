@@ -43,30 +43,6 @@
     "16288526342842f579": {
       "type": "multicolumn",
       "blocks": {
-        "16288526342842f579-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured-1.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "16288526342842f579-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "16288526342842f579-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured-3.png",
-            "title": "",
-            "text": ""
-          }
-        },
         "5116d4c4-8bdf-48a7-9342-d956360230e3": {
           "type": "column",
           "settings": {
@@ -75,26 +51,10 @@
             "text": ""
           }
         },
-        "62bfa786-a949-400b-b848-b11b06a55496": {
+        "16288526342842f579-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured-5.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "97cfd7a7-10b4-4c7b-af24-09caee1f7e5e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured-6_1.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "0f22fc0f-be67-48e1-bb4e-ca179be78360": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured-7_1.png",
+            "image": "shopify:\/\/shop_images\/featured-1.png",
             "title": "",
             "text": ""
           }
@@ -106,17 +66,21 @@
             "title": "",
             "text": ""
           }
+        },
+        "16288526342842f579-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured-2.png",
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
-        "16288526342842f579-0",
-        "16288526342842f579-1",
-        "16288526342842f579-2",
         "5116d4c4-8bdf-48a7-9342-d956360230e3",
-        "62bfa786-a949-400b-b848-b11b06a55496",
-        "97cfd7a7-10b4-4c7b-af24-09caee1f7e5e",
-        "0f22fc0f-be67-48e1-bb4e-ca179be78360",
-        "c1292760-5f26-408e-9881-a10b3e93f2f6"
+        "16288526342842f579-0",
+        "c1292760-5f26-408e-9881-a10b3e93f2f6",
+        "16288526342842f579-1"
       ],
       "settings": {
         "title": "Featured in",
