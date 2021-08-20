@@ -1,0 +1,272 @@
+{{ '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/redmond/jquery-ui.css' | stylesheet_tag}}
+{{ '//localdelivery.herokuapp.com/assets/css/localdelivery-3.01.css' | stylesheet_tag}}
+{{ '//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js' | script_tag }}
+
+<script>
+  // LD Snippet Version 3.07
+  var ldSettings = {{shop.metafields.local_delivery.settings | json }};
+  var ldShopifyCart = {{ cart | json }};
+  var ldData = { delivery_zones: Object.values({{shop.metafields.delivery_zones | json }}),
+    pickup_locations: Object.values({{shop.metafields.pickup_locations | json }})
+  };
+</script>
+
+{% assign local_delivery_items = false %}
+{% for item in cart.items %}
+  {% if item.product.metafields.local_delivery.local_delivery_available == 'true' %}
+    {% assign local_delivery_items = true %}
+  {% endif %}
+{% endfor %}
+
+{% assign ship = shop.metafields.local_delivery.settings.show_shipping %}
+{% assign pickup = shop.metafields.pickup_locations %}
+{% assign delivery = shop.metafields.delivery_zones %}
+{% assign show_delivery_method_check1 = false %}
+{% assign show_delivery_method_check2 = false %}
+{% assign show_delivery_method_check3 = false %}
+{% assign show_delivery_method = false %}
+{% if pickup.size > 0 and delivery.size > 0 %}
+  {% assign show_delivery_method_check1 = true %}
+{% endif %}
+{% if ship and pickup.size > 0 %}
+  {% assign show_delivery_method_check2 = true %}
+{% endif %}
+{% if ship and delivery.size > 0 %}
+  {% assign show_delivery_method_check3 = true %}
+{% endif %}
+{% if show_delivery_method_check1 or show_delivery_method_check2 or show_delivery_method_check3 %}
+  {% assign show_delivery_method = true %}
+{% endif %}
+{% assign pickup_select_only = false %}
+{% if ship == false and pickup.size > 0 and delivery.size == 0 %}
+  {% assign pickup_select_only = true %}
+{% endif %}
+{% assign delivery_only = false %}
+{% if ship == false and pickup.size == 0 and delivery.size > 0 %}
+  {% assign delivery_only = true %}
+{% endif %}
+
+{% unless pickup.size == 0 and delivery.size == 0 %}
+  {% if local_delivery_items == true or shop.metafields.local_delivery.enable_all_products == 'true' %}
+    <div id="order-delivery" class="{% if shop.metafields.local_delivery.settings.display_snippet_on_right == true %}ld_place_right_side{% endif %}">
+      <!-- Local Delivery Shopify App (https://apps.shopify.com/local-delivery-1) -->
+
+      <h3 class="{% if shop.metafields.local_delivery.settings.title == nil or shop.metafields.local_delivery.settings.title == "" %}ld_display_none{% endif %}">{{shop.metafields.local_delivery.settings.title}}</h3>
+
+      <div id="order-delivery-form-wrapper" class="clearfix">
+
+        <div id="delivery_method" class="ld_content_box {% if show_delivery_method == false %}ld_hidden{% endif %}">
+          {% if ship %}
+            <div class="ld_content_box_row">
+              <div class="ld_radio_wrapper">
+                <div class="ld_radio_input_div">
+                  <input class="ld_input_radio ld_delivery_method_input ld_ship_method" type="radio" value="{{shop.metafields.local_delivery.settings.pd_shipping_text}}" name="attributes[Delivery Method]" id="ld_pd_radio_ship"
+                         {% if shop.metafields.local_delivery.settings.pd_select_required %}required
+                         oninvalid="this.setCustomValidity(ldSettings.pd_select_required_message)"
+                         oninput="this.setCustomValidity('')"{% endif %}
+                  >
+                </div>
+                <label class="ld_radio_label" aria-hidden="true" for="ld_pd_radio_ship">
+                  <span class="ld_radio_label_content">
+                    <i class="fas fa-box"></i>
+                    {{shop.metafields.local_delivery.settings.pd_shipping_text}}
+                  </span>
+                </label>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if delivery.size > 0 %}
+            <div class="ld_content_box_row {% if pickup_select_only %}ld_hidden{% endif %}">
+              <div class="ld_radio_wrapper">
+                <div class="ld_radio_input_div">
+                  <input class="ld_input_radio ld_delivery_method_input ld_delivery_method" {% if delivery_only == true %}checked="checked"{% endif %} type="radio" value="{{shop.metafields.local_delivery.settings.pd_delivery_text}}" name="attributes[Delivery Method]" id="ld_pd_radio_delivery"
+                  {% if shop.metafields.local_delivery.settings.pd_select_required %}required
+                    oninvalid="this.setCustomValidity(ldSettings.pd_select_required_message)"
+                    oninput="this.setCustomValidity('')"{% endif %}
+                  >
+                </div>
+                <label class="ld_radio_label" aria-hidden="true" for="ld_pd_radio_delivery">
+                  <span class="ld_radio_label_content {% if delivery_only %}active{% endif %}">
+                    <i class="fas fa-truck"></i>
+                    {{shop.metafields.local_delivery.settings.pd_delivery_text}}
+                  </span>
+                </label>
+              </div>
+            </div>
+          {% endif %}
+
+          {% if pickup.size > 0 %}
+            <div class="ld_content_box_row {% if delivery_only %}ld_hidden{% endif %}">
+              <div class="ld_radio_wrapper">
+                <div class="ld_radio_input_div">
+                  <input class="ld_input_radio ld_delivery_method_input ld_pickup_method" {% if pickup_select_only %}checked="checked"{% endif %} type="radio" value="{{shop.metafields.local_delivery.settings.pd_pickup_text}}" name="attributes[Delivery Method]" id="ld_pd_radio_pickup"
+                  {% if shop.metafields.local_delivery.settings.pd_select_required %}required
+                    oninvalid="this.setCustomValidity(ldSettings.pd_select_required_message)"
+                    oninput="this.setCustomValidity('')"{% endif %}
+                  >
+                </div>
+                <label class="ld_radio_label" aria-hidden="true" for="ld_pd_radio_pickup">
+                  <span class="ld_radio_label_content {% if pickup_select_only %}active{% endif %}">
+                    <i class="fas fa-store-alt"></i>
+                    {{shop.metafields.local_delivery.settings.pd_pickup_text}}
+                  </span>
+                </label>
+              </div>
+            </div>
+          {% endif %}
+
+        </div>
+
+
+        <div id="ld_pickup_div" class="ld_hidden">
+          <h4 class="{% if shop.metafields.local_delivery.settings.pickup_locations_list_heading == nil or shop.metafields.local_delivery.settings.pickup_locations_list_heading == "" %}ld_display_none{% endif %}">{{shop.metafields.local_delivery.settings.pickup_locations_list_heading}}</h4>
+          <div id="ld_pickup_div_content_box" class="ld_content_box ld_pickup_div_content_box ld_hidden">
+          </div>
+        </div>
+
+        <div id="delivery_div" class="{% if delivery_only == false %}ld_hidden{% endif %}">
+          {% if shop.metafields.local_delivery.settings.use_zipcodes %}
+
+            <div class="zipcode_check_fields">
+              <label for="zip_code" class="{% if shop.metafields.local_delivery.settings.zipcode_label == nil or shop.metafields.local_delivery.settings.zipcode_label == "" %}ld_display_none{% endif %}">{{shop.metafields.local_delivery.settings.zipcode_label}}</label>
+              <div class="ld_input_icon_wrapper ld_zipcode_input_wrapper">
+                <input {% if delivery_only == false %}tabindex="-1"{% endif %} type="text" id="zip_code" placeholder="{{shop.metafields.local_delivery.settings.zipcode_placeholder}}">
+              </div>
+              {% if shop.metafields.local_delivery.settings.zipcode_label != nil and shop.metafields.local_delivery.settings.zipcode_valid_message != "" %}<p class="ld_zipcode_valid_message ld_display_none">{{ shop.metafields.local_delivery.settings.zipcode_valid_message }}</p>{% endif %}
+            </div>
+
+            <div id="ld_no_zipcode_div" class="ld_content_box ld_display_none">
+              <div class="ld_content_box_row">
+                <div class="ld_radio_wrapper">
+                  <div class="ld_radio_input_div ld_no_zipcode_icon_div">
+                    <i class="fas fa-exclamation-circle"></i>
+                  </div>
+                  <label class="ld_radio_label" aria-hidden="true" for="">
+                    <span class="ld_radio_label_content ld_no_zipcode_content_div">
+                      {{shop.metafields.local_delivery.settings.zipcode_not_found }}
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+          {% else %}
+
+            <div id="ld_delivery_areas_div" class="ld_hidden">
+              <h4 class="{% if shop.metafields.local_delivery.settings.delivery_areas_list_heading == nil or shop.metafields.local_delivery.settings.delivery_areas_list_heading == "" %}ld_display_none{% endif %}">{{shop.metafields.local_delivery.settings.delivery_areas_list_heading}}</h4>
+              <div id="ld_delivery_areas_div_content_box" class="ld_content_box ld_delivery_areas_div_content_box ld_hidden">
+              </div>
+            </div>
+
+          {% endif %}
+        </div>
+
+        {% if shop.metafields.local_delivery.settings.require_date %}
+          <input tabindex="-1" type="text" id="quick_click_through_restriction_input" style="opacity: 0 !important;height: 0 !important;margin: 0 !important;padding: 1px 0 0 0 !important;pointer-events: none !important;" required oninvalid="this.setCustomValidity(ldSettings.quick_click_through_restriction_text)" oninput="this.setCustomValidity('')">
+        {% endif %}
+
+        <div id="ld_minimum_order_div" class="ld_content_box ld_display_none">
+          <div class="ld_content_box_row">
+            <div class="ld_radio_wrapper">
+              <div class="ld_radio_input_div ld_minimum_order_icon_div">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <label class="ld_radio_label" aria-hidden="true" for="">
+                <span class="ld_radio_label_content ld_minimum_order_content_div"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <input tabindex="-1" type="text" id="ld_minimum_order_price_hidden" class="ld_display_none">
+
+        <div class="ld_zipcode_shipping_rate_div ld_single_delivery_area_shipping_rate_div ld_hidden ld_display_none">
+        </div>
+
+        <div id="date_div" class="ld_hidden {% if shop.metafields.local_delivery.settings.display_snippet_on_right == true %}ld_display_on_right{% endif %}">
+          <div class="place_custom_text ld_display_none">
+          </div>
+          <label for="datepicker" id="date_label"></label>
+          <div class="ld_input_icon_wrapper ld_datepicker_input_wrapper {% if shop.metafields.local_delivery.settings.calendar_always_visible %}ld_datepicker_always_visible{% endif %}">
+            {% if shop.metafields.local_delivery.settings.calendar_always_visible == false %}
+              <input id="datepicker"
+                     type="text"
+                     onkeydown="return false;"
+                     style=""
+                     autocomplete="off"
+                     tabindex="-1"
+                     inputmode='none'
+              />
+            {% else %}
+              <input type="text" id="datepicker_required_div" class="ld_hidden" tabindex="-1">
+              <div id="datepicker"
+                   tabindex="-1"
+                   class="ld_datepicker_always_visible"
+              ></div>
+            {% endif %}
+          </div>
+
+          <div id="loading" class="{% if shop.metafields.local_delivery.settings.finding_times_text == nil or shop.metafields.local_delivery.settings.finding_times_text == "" %}ld_display_none{% endif %}">{{shop.metafields.local_delivery.settings.finding_times_text}}</div>
+
+          <div id="ld_timeout_div" class="ld_content_box ld_display_none">
+            <div class="ld_content_box_row">
+              <div class="ld_radio_wrapper">
+                <div class="ld_radio_input_div ld_timeout_icon_div">
+                  <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <label class="ld_radio_label" aria-hidden="true" for="">
+                  <span class="ld_radio_label_content ld_timeout_content_div">
+                    {{shop.metafields.local_delivery.settings.timeout_message }}
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div id="timeDiv" class="ld_hidden">
+            <label for="local_delivery" id="time_label"></label>
+            <div class="ld_input_icon_wrapper ld_time_input_wrapper">
+              <select name="attributes[Local Delivery Date and Time]" id="local_delivery" style="" tabindex="-1">
+              </select>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <input type="text" id="ld_delivery_area_name" name="attributes[Delivery Area]" class="ld_display_none" tabindex="-1">
+      <input type="text" id="ld_pickup_location_name" name="attributes[Pickup Location]" class="ld_display_none" tabindex="-1">
+      <input type="text" id="ld_pickup_location_address" name="attributes[Pickup Address]" class="ld_display_none" tabindex="-1">
+      <input type="text" id="ld_pickup_location_phone" name="attributes[Pickup Phone]" class="ld_display_none" tabindex="-1">
+      <input type="text" id="place_id" class="ld_display_none" tabindex="-1">
+      <input type="text" id="ld_order_id" name="attributes[Local Delivery ID]" class="ld_display_none" tabindex="-1">
+
+      {% if shop.metafields.local_delivery.settings.require_date and shop.metafields.local_delivery.settings.ajax_attributes_update and shop.metafields.local_delivery.settings.wait_for_ajax_cart_attributes_update_restriction %}
+        <input type="text" id="wait_for_ajax_cart_attributes_update_restriction_input" tabindex="-1" style="opacity: 0 !important;height: 0 !important;margin: 0 !important;padding: 1px 0 0 0 !important;pointer-events: none !important;">
+      {% endif %}
+
+      <div id="wrapper-response"></div>
+    </div>
+
+    <br />
+
+    <noscript>
+      <style type="text/css">
+          #order-delivery {display:none;}
+      </style>
+      <div class="noscriptmsg">
+        {{shop.metafields.local_delivery.settings.no_javascript_message}}
+        <input type="text" id="ld_no_script_attribute" name="attributes[No JS]" class="ld_display_none" tabindex="-1" value="Customer did not have javascript enabled in their browser">
+      </div>
+    </noscript>
+  {% endif %}
+
+  {% if shop.metafields.local_delivery.settings.hide_additional_checkout_buttons == true %}
+    <style>
+        /* Additional checkout buttons must be hidden for the date to pass through to checkout */
+        .additional-checkout-buttons, .additional_checkout_buttons, .cart__additional_checkout {
+            display: none !important;
+        }
+    </style>
+  {% endif %}
+{% endunless %}

@@ -1,0 +1,41 @@
+{
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "shipping_address": "Delivery address",
+        "ship": "Local delivery"
+      },
+      "contact": {
+        "shipping_address_title": "Delivery address"
+      },
+      "shipping": {
+        "title": "Local Delivery",
+        "shipping_method_notice": "",
+        "shipping_method_title": "Delivery options"
+      },
+      "general": {
+        "continue_to_shipping_method": "Continue to delivery options",
+        "back_to_shipping_method": "Return to delivery options"
+      },
+      "order_summary": {
+        "shipping_label": "Delivery"
+      },
+      "review": {
+        "blocks": {
+          "shipping_address_title": "Deliver to",
+          "shipping_method_title": "Method"
+        }
+      },
+      "payment": {
+        "same_billing_address_label": "Same as delivery address"
+      },
+      "thank_you": {
+        "shipping_method_title": "Delivery method",
+        "shipping_address_title": "Delivery address",
+        "marker": {
+          "shipping": "Delivery address"
+        }
+      }
+    }
+  }
+}

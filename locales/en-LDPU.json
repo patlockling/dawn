@@ -1,0 +1,41 @@
+{
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "shipping_address": "Billing address",
+        "ship": "Local pickup"
+      },
+      "contact": {
+        "shipping_address_title": "Billing address"
+      },
+      "shipping": {
+        "title": "Pickup",
+        "shipping_method_notice": "",
+        "shipping_method_title": "Pickup locations"
+      },
+      "general": {
+        "continue_to_shipping_method": "Continue to pickup locations",
+        "back_to_shipping_method": "Return to pickup locations"
+      },
+      "order_summary": {
+        "shipping_label": "Pickup"
+      },
+      "review": {
+        "blocks": {
+          "shipping_address_title": "Billing address",
+          "shipping_method_title": "Pickup location"
+        }
+      },
+      "payment": {
+        "same_billing_address_label": "Use the same billing address"
+      },
+      "thank_you": {
+        "shipping_method_title": "Pickup location",
+        "shipping_address_title": "Billing address",
+        "marker": {
+          "shipping": "Billing address"
+        }
+      }
+    }
+  }
+}
