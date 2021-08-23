@@ -59,12 +59,19 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "16296776925b1c3f7e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-widget=\"SgA2CX4R\" style=\"width:100%;height:400px;color:#FFFFFF;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+      }
     }
   },
   "order": [
     "main",
     "1629205175d04038c6",
     "1629205306ef91ebc3",
-    "16292107120440baca"
+    "16292107120440baca",
+    "16296776925b1c3f7e"
   ]
 }
