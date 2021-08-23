@@ -56,12 +56,6 @@
             "collection": "i-maccheroni-by-rustic-kitchen"
           }
         },
-        "1ba687b7-d462-4fb2-bf05-1004ba806475": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "juicy-banana-by-big-sam-young"
-          }
-        },
         "3475dbf3-3a5c-4654-bf43-fa029525110f": {
           "type": "featured_collection",
           "settings": {
@@ -102,7 +96,6 @@
         "2e63e53c-a929-4275-b64f-06e43a860e60",
         "3f75275b-9111-476f-b450-e28ad058cf96",
         "e21b1277-dd7e-4342-89a8-a9a97c14671a",
-        "1ba687b7-d462-4fb2-bf05-1004ba806475",
         "3475dbf3-3a5c-4654-bf43-fa029525110f",
         "4eaff548-c657-4b2e-82be-2f07def6e7f2",
         "4958c044-9439-490c-94db-afc0db3929a3",
