@@ -33,7 +33,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/brooke-lark.jpg",
+        "image": "shopify:\/\/shop_images\/ChefPrep_STIX_060521_YMund-8747_HR.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -114,7 +114,7 @@
         "16288530998201db34-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Choose-meal.png",
+            "image": "shopify:\/\/shop_images\/multiple_ChefPrep_meals.jpg",
             "title": "1. Choose Meals from Multiple Restaurants",
             "text": ""
           }
