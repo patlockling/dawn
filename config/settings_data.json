@@ -11,6 +11,7 @@
     "page_width": "1600",
     "social_facebook_link": "https:\/\/www.facebook.com\/chefprepfood\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/ChefPrepFood\/",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/ChefPrep-logo.png",
     "checkout_accent_color": "#3a3a3a",
