@@ -106,7 +106,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Let's get you started with some of our current favourites",
-        "collection": "featured-meals",
+        "collection": "current-favourites",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": false,
@@ -121,7 +121,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Looking for a dessert to satisfy that sweet tooth?",
-        "collection": "albis-taverna",
+        "collection": "sweet-tooth",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
@@ -136,7 +136,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Is someone in your family a vegetarian? we got you covered.",
-        "collection": "bondi-hardware",
+        "collection": "vegetarian",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
