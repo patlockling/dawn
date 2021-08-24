@@ -55,22 +55,21 @@
         "1629205306ef91ebc3-0": {
           "type": "heading",
           "settings": {
-            "heading": "We are ChefPrep and we are revolutionising meal prep.",
+            "heading": "Plus, your chance to win one of three family meals valued at up to $200*",
             "heading_size": "h2"
           }
         },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ChefPrep was born out of our own personal frustration with ready-made meals and existing meal delivery services. We grew tired of spending hours on weekends preparing our meals for the following week and we weren’t satisfied with the taste, quality or convenience of meal kit delivery services or mass manufactured ready-made meals. <br\/><br\/>So we decided to take matters into our own hands and set up an online marketplace where you can order your weekly ready-made meals from premium, award winning restaurants for an affordable price. Not only are ChefPrep meals delivered to your door, they only require heating or minimal finishing and are specially designed by our restaurant partners to last in the freezer for up to 6 months and to maintain their taste and quality on reheating. <br\/><br\/>We feel privileged to work with some of the finest restaurants and chefs in Australia and to have their support and guidance on our journey. We would not exist without our amazing restaurant partners who create each delicious meal with tender love and care. <br\/><br\/>While we want to leave a strong impression on Australian customers, we don’t want to leave a mark on the environment and this is why all of the meals are delivered in biodegradable packaging which is freezer, oven and microwave safe. Also, all of our meals can be frozen which reduces food wastage.<\/p>"
+            "text": "<p>You may not be able to see Dad in person this year, but you can still give him a Father’s Day to remember, with a special feast created by some of Sydney’s best restaurants.<\/p><p> <\/p><p>Order your Father’s Day feast by <strong>August 31 <\/strong>and get direct delivery to Dad, or order meals for the whole family so you can enjoy a virtual dinner together! We deliver to most of NSW. Not sure if we deliver to your Dad or a family member? Ask us in the chat or send us an email at <a href=\"mailto:hello@chefprep.com.au\" target=\"_blank\">hello@chefprep.com.au<\/a><\/p><p> <\/p><p><strong>Place your order now and use the code FATHERSDAY2021 at checkout to enjoy free delivery on all your Father’s Day orders, plus go into the draw to win your family meal on us.*<\/strong><\/p><p> <\/p><p>Our delicious chef-prepared meals are frozen for freshness and delivered by Thursday 2 September, making it easier than ever to enjoy a restaurant-quality meal in your own home this Father’s Day. Simply defrost, heat and enjoy!<\/p>"
           }
         },
         "1629205306ef91ebc3-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Order now",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
         }
@@ -85,10 +84,28 @@
         "full_width": true
       }
     },
+    "16297972367e37426e": {
+      "type": "rich-text",
+      "blocks": {
+        "16297972367e37426e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>*To receive free delivery and enter the competition, use the code FATHERSDAY2021 at checkout. Offer ends August 31 2021, 11.59pm AEST. Competition T&C apply.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16297972367e37426e-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "162977825030c9f74e": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our recommendations for this Father's Day",
+        "title": "Let's get you started with some of our current favourites",
         "collection": "featured-meals",
         "products_to_show": 4,
         "show_view_all": false,
@@ -103,7 +120,7 @@
     "16297784293995eae1": {
       "type": "featured-collection",
       "settings": {
-        "title": "Vegetarian",
+        "title": "Looking for a dessert to satisfy that sweet tooth?",
         "collection": "albis-taverna",
         "products_to_show": 4,
         "show_view_all": true,
@@ -118,10 +135,10 @@
     "1629778516a930dd8d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Is someone in your family a vegetarian? we got you covered.",
         "collection": "bondi-hardware",
-        "products_to_show": 2,
-        "show_view_all": true,
+        "products_to_show": 4,
+        "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -129,86 +146,15 @@
         "show_image_outline": true,
         "show_vendor": false
       }
-    },
-    "1629778520e926ff5a": {
-      "type": "image-with-text",
-      "blocks": {
-        "1629778520e926ff5a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1629778520e926ff5a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1629778520e926ff5a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1629778520e926ff5a-0",
-        "1629778520e926ff5a-1",
-        "1629778520e926ff5a-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "162977877767933c23": {
-      "type": "collection-list",
-      "blocks": {
-        "162977877767933c23-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "albis-taverna"
-          }
-        },
-        "162977877767933c23-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "162977877767933c23-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "162977877767933c23-0",
-        "162977877767933c23-1",
-        "162977877767933c23-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
     "main",
     "1629778220db1a8c15",
     "1629205306ef91ebc3",
+    "16297972367e37426e",
     "162977825030c9f74e",
     "16297784293995eae1",
-    "1629778516a930dd8d",
-    "1629778520e926ff5a",
-    "162977877767933c23"
+    "1629778516a930dd8d"
   ]
 }
