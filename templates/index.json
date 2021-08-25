@@ -40,6 +40,41 @@
         "adapt_height_first_image": false
       }
     },
+    "1629850599ebb1ca53": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629850599ebb1ca53-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make it a Father’s Day to remember"
+          }
+        },
+        "1629850599ebb1ca53-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You may not be able to see Dad in person this year, but you can still give him a Father’s Day to remember, with a special feast created by some of Sydney’s best restaurants.<\/p>"
+          }
+        },
+        "1629850599ebb1ca53-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/pages\/order-now-for-free-delivery-on-your-father-s-day-feast"
+          }
+        }
+      },
+      "block_order": [
+        "1629850599ebb1ca53-0",
+        "1629850599ebb1ca53-1",
+        "1629850599ebb1ca53-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CP_Fathers_Day_v4_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
     "16288526342842f579": {
       "type": "multicolumn",
       "blocks": {
@@ -144,59 +179,6 @@
       "settings": {
         "title": "How it works",
         "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1629167135fb24c499": {
-      "type": "multicolumn",
-      "blocks": {
-        "1629167135fb24c499-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-4-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1629167135fb24c499-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-5-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1629167135fb24c499-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-9-2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "d6d933c9-ec71-4c74-8121-a587a26a50e9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand-13-2.png",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1629167135fb24c499-0",
-        "1629167135fb24c499-1",
-        "1629167135fb24c499-2",
-        "d6d933c9-ec71-4c74-8121-a587a26a50e9"
-      ],
-      "settings": {
-        "title": "Coming Soon",
-        "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
@@ -325,10 +307,10 @@
   },
   "order": [
     "image_banner",
+    "1629850599ebb1ca53",
     "16288526342842f579",
     "featured_products",
     "16288530998201db34",
-    "1629167135fb24c499",
     "162885260804a4151a",
     "16291666415b86e5bb",
     "1629167547f91b423f"
