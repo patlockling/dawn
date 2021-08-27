@@ -90,7 +90,7 @@
         "16297972367e37426e-1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>*To receive free delivery and enter the competition, use the code FATHERSDAY2021 at checkout. Offer ends August 31 2021, 11.59pm AEST. Competition T&C apply.<\/em><\/p>"
+            "text": "<p><em>*To receive free delivery and enter the competition, use the code FATHERSDAY2021 at checkout. Offer ends August 31 2021, 11.59pm AEST. <\/em><a href=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\" target=\"_blank\" title=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\"><em>Competition T&C apply<\/em><\/a><em>.<\/em><\/p>"
           }
         }
       },
@@ -146,6 +146,24 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "16300380892b08752c": {
+      "type": "rich-text",
+      "blocks": {
+        "16300380892b08752c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\" target=\"_blank\" title=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\">Terms and Conditions<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16300380892b08752c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -155,6 +173,7 @@
     "16297972367e37426e",
     "162977825030c9f74e",
     "16297784293995eae1",
-    "1629778516a930dd8d"
+    "1629778516a930dd8d",
+    "16300380892b08752c"
   ]
 }
