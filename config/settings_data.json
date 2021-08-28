@@ -63,7 +63,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Sign up to our newsletter for  20% OFF your next order",
+          "newsletter_heading": "Sign up to our newsletter for  20% OFF your next order over $100",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
