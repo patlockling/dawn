@@ -27,7 +27,7 @@
           $("#date").datepicker({
             minDate: cutoff_days, 
             maxDate: '+2W',
-            dateFormat: "dd-mm-yy",
+            dateFormat: "dd/mm/yy",
             beforeShowDay:  function (date) {
               if ($.inArray(date.getDay(), deliveryDates) != -1) {
                 return [true, ''];
