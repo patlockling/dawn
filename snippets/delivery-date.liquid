@@ -1,0 +1,93 @@
+<!--Custom: Delivery date day picker--> 
+
+{{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }}
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
+
+  <div style="width:300px; clear:both;">
+    <p>
+      <label for="date">Pick a delivery date:</label>
+      <input id="date" type="text" name="attributes[Delivery Date]" value="{{ cart.attributes.date }}" />
+      <!--<span style="display:block" class="instructions"> We do not deliver during the week-end.</span>-->
+    </p>
+  </div>
+
+  <script>
+    
+    //Our current delivery days. 1=Monday 4=Thursday
+    const deliveryDates = [1,4];
+    
+    // Min days to order before next delivery
+    const cutoff_days = 3;
+    
+    window.onload = function() {
+      if (window.jQuery) {
+        let $ = window.jQuery;
+
+        $(function() {
+          $("#date").datepicker({
+            minDate: cutoff_days, 
+            maxDate: '+2W',
+            dateFormat: "dd-mm-yy",
+            beforeShowDay:  function (date) {
+              if ($.inArray(date.getDay(), deliveryDates) != -1) {
+                return [true, ''];
+              } else {
+                return [false, ''];
+              }}
+          });
+          
+          // Set default to the upcoming available date
+          const today = new Date();
+          const upcomingDeliveryDate = new Date();
+          const daysToSum = determineDaysToSum();
+          
+          
+          upcomingDeliveryDate.setDate(today.getDate() + daysToSum + cutoff_days);
+          console.log('date! ' + upcomingDeliveryDate); 
+          $("#date").datepicker("setDate", upcomingDeliveryDate);
+
+          
+          
+        });
+        
+        
+          
+        function determineDaysToSum () {
+          const today = new Date();
+          const currentDay = today.getDay();
+          
+          const aux = currentDay + cutoff_days;
+          let aux2 = aux;
+          
+          // Check if the calculated day falls in one of the delivery dates. If yes, then use that
+          let search = $.inArray(aux2, deliveryDates);
+          if (search != -1) {
+            return 0;
+          }
+          
+          // Check if calculated day > max in array, in that case pick the first day of next week
+          if (aux2 > Math.max(...deliveryDates)) {
+            let selected = Math.min(...deliveryDates);
+          	return 7 - aux2 + selected;  
+          }
+          
+          // If none of the conditions above match, iterate through available days and find the closest one          
+          for (let i = 0; i < deliveryDates.length; i++){
+            if (aux2 <= deliveryDates[i]) {
+              return deliveryDates[i] - aux2;
+            }
+          }
+          
+        }
+        
+      }
+    }
+</script>
+<!--Custom: Time picker--> 
+<p class="cart-attribute__field">
+  <label>Delivery Time</label><br>
+  <select required class="required" id="delivery-time" name="attributes[Delivery Time]" value="{{ cart.attributes.date }}">
+    <option value="12:00 AM - 7:00 AM"{% if cart.attributes["Delivery Time"] == "12:00 AM - 7:00 AM" %} selected{% endif %}>12:00 AM - 7:00 AM</option>
+    <option value="8:00 AM - 6 PM"{% if cart.attributes["Delivery Time"] == "8:00 AM - 6 PM" %} selected{% endif %}>8:00 AM - 6 PM</option>
+  </select>
+</p>
