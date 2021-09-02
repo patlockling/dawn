@@ -88,6 +88,6 @@
   <label>Delivery Time</label><br>
   <select required class="required" id="delivery-time" name="attributes[Delivery Time]" value="{{ cart.attributes.time }}">
     <option value="12:00 AM - 7:00 AM"{% if cart.attributes["Delivery Time"] == "12:00 AM - 7:00 AM" %} selected{% endif %}>12:00 AM - 7:00 AM</option>
-    <option value="8:00 AM - 6 PM"{% if cart.attributes["Delivery Time"] == "8:00 AM - 6 PM" %} selected{% endif %}>8:00 AM - 6 PM</option>
+    <option value="8:00 AM - 5:00 PM"{% if cart.attributes["Delivery Time"] == "8:00 AM - 6 PM" %} selected{% endif %}>8:00 AM - 6 PM</option>
   </select>
 </p>
