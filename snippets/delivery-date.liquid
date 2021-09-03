@@ -68,7 +68,7 @@
           // Check if calculated day > max in array, in that case pick the first day of next week
           if (aux2 > Math.max(...deliveryDates)) {
             let selected = Math.min(...deliveryDates);
-          	return aux2 - 7 + selected;  
+          	return aux2 - 6 + selected;  
           }
           
           // If none of the conditions above match, iterate through available days and find the closest one          
