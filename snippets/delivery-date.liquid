@@ -17,7 +17,7 @@
     const deliveryDates = [1,4];
     
     // Min days to order before next delivery
-    const cutoff_days = 4;
+    const cutoff_days = 3;
     
     window.onload = function() {
       if (window.jQuery) {
@@ -42,9 +42,9 @@
           const daysToSum = determineDaysToSum();
           
           
-          //upcomingDeliveryDate.setDate(today.getDate() + daysToSum + cutoff_days);
-          //console.log('date! ' + upcomingDeliveryDate); 
-          //$("#date").datepicker("setDate", upcomingDeliveryDate);
+          upcomingDeliveryDate.setDate(today.getDate() + daysToSum + cutoff_days);
+          console.log('date! ' + upcomingDeliveryDate); 
+          $("#date").datepicker("setDate", upcomingDeliveryDate);
 
           
           
