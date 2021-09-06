@@ -36,6 +36,8 @@
               }}
           });
           
+          $('#date').attr('readonly','readonly');
+          
           // Set default to the upcoming available date
           const today = new Date();
           const upcomingDeliveryDate = new Date();
@@ -84,6 +86,7 @@
     }
 </script>
 <!--Custom: Time picker--> 
+  <div style="width:300px; clear:both;">
 <p class="cart-attribute__field">
   <label>Delivery Time</label><br>
   <select required class="required" id="delivery-time" name="attributes[Delivery Time]" value="{{ cart.attributes.time }}">
@@ -91,3 +94,75 @@
     <option value="8:00 AM - 5:00 PM"{% if cart.attributes["Delivery Time"] == "8:00 AM - 6 PM" %} selected{% endif %}>8:00 AM - 5:00 PM</option>
   </select>
 </p>
+</div>
+
+{% style %}
+.ui-datepicker {
+	font-family: Poppins, sans-serif;
+	background: #ffffff;
+}
+
+.ui-datepicker-header {
+	background: #000000;
+	font-weight: 400;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+	background-color: white;
+	opacity: 100;
+}
+
+.ui-datepicker-title {
+	color: #ffffff;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+	color: #000000;
+	background: #ffffff;
+	border-color: #ffffff;
+	text-align: center;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+	background: #000000;
+	color: #ffffff;
+}
+.ui-datepicker-calendar .ui-state-hover {
+	background: #CEF0D4;
+	color: #000000;
+}
+
+
+input, select {
+	font-family: Poppins;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	letter-spacing: 0.04rem;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	color: rgb(var(--color-foreground));
+	width: 100%;
+	box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
+	height: 4.5rem;
+	box-sizing: border-box;
+	transition: box-shadow var(--duration-short) ease;
+	padding-left: 15px;
+}
+select {
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+	background-position:
+		calc(100% - 20px) calc(1em + 2px),
+		calc(100% - 15px) calc(1em + 2px),
+		calc(100% - 2.5em) 0.5em;
+	background-size:
+		5px 5px,
+		5px 5px,
+		1px 1.5em;
+  	background-repeat: no-repeat;
+}
+{% endstyle %}
