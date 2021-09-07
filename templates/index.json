@@ -304,6 +304,41 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
+    },
+    "16309954415d71656e": {
+      "type": "rich-text",
+      "blocks": {
+        "1630995441e4183f28-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Free delivery on orders over $100.",
+            "heading_size": "h1"
+          }
+        },
+        "1630995441e4183f28-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Delivering to Sydney Metropolitan, Central Coast, Newcastle, Blue Mountains and Wollongong.<\/p>"
+          }
+        },
+        "1630995441e4183f28-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Meals",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1630995441e4183f28-0",
+        "1630995441e4183f28-1",
+        "1630995441e4183f28-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -314,6 +349,7 @@
     "16288530998201db34",
     "162885260804a4151a",
     "16291666415b86e5bb",
-    "1629167547f91b423f"
+    "1629167547f91b423f",
+    "16309954415d71656e"
   ]
 }
