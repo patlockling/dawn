@@ -11,7 +11,7 @@
         "1629778220db1a8c15-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CP_FathersDay_350x250_1.png",
+            "image": "shopify:\/\/shop_images\/CP_mates_300x250_A300.jpg",
             "title": "",
             "text": ""
           }
@@ -19,7 +19,7 @@
         "1629778220db1a8c15-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CP_FathersDay_350x250_2.png",
+            "image": "shopify:\/\/shop_images\/CP_mates_300x250_B300.jpg",
             "title": "",
             "text": ""
           }
@@ -27,7 +27,7 @@
         "1629778220db1a8c15-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CP_FathersDay_350x250_3.png",
+            "image": "shopify:\/\/shop_images\/CP_mates_300x250_C300.jpg",
             "title": "",
             "text": ""
           }
@@ -55,14 +55,14 @@
         "1629205306ef91ebc3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Plus, your chance to win one of three family meals valued at up to $200*",
+            "heading": "Plus get $30 off with the code SEP30!",
             "heading_size": "h2"
           }
         },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You may not be able to see Dad in person this year, but you can still give him a Father’s Day to remember, with a special feast created by some of Sydney’s best restaurants.<\/p><p> <\/p><p>Order your Father’s Day feast by <strong>August 31 <\/strong>and get direct delivery to Dad, or order meals for the whole family so you can enjoy a virtual dinner together! We deliver to most of NSW. Not sure if we deliver to your Dad or a family member? Ask us in the chat or send us an email at <a href=\"mailto:hello@chefprep.com.au\" target=\"_blank\">hello@chefprep.com.au<\/a><\/p><p> <\/p><p><strong>Place your order now and use the code FATHERSDAY2021 at checkout to enjoy free delivery on all your Father’s Day orders, plus go into the draw to win your family meal on us.*<\/strong><\/p><p> <\/p><p>Our delicious chef-prepared meals are frozen for freshness and delivered by Thursday 2 September, making it easier than ever to enjoy a restaurant-quality meal in your own home this Father’s Day. Simply defrost, heat and enjoy!<\/p>"
+            "text": "<p>Missing those dinner catch ups with friends? Us too. That’s why we're bringing a range of top-quality, chef-prepared dishes direct to your door, perfect for a virtual dinner date with a mate.<\/p><p> <\/p><p>Order your favourite dishes from some of Sydney's best restaurants this September and you'll get <strong>$30 off your first order with the code SEP30<\/strong>, plus free delivery when you spend $100 or more.<\/p><p> <\/p><p>So don’t miss out – tell a mate, tell your mum, and place your orders now for your virtual dinner dates. It's the next best thing to eating at a restaurant in person (and you get to keep your trackies on!).<\/p>"
           }
         },
         "1629205306ef91ebc3-2": {
