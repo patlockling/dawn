@@ -23,7 +23,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "Due to the current restrictions, some deliveries may experience slight delays. Please refer to delivery page for more info.",
+              "heading": "Free delivery on orders over $100!",
               "color_scheme": "accent-1",
               "link": ""
             }
