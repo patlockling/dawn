@@ -86,6 +86,12 @@
             "collection": "olio-kensington-street"
           }
         },
+        "16f5e42f-f571-471b-a181-ac5a1e126ca8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "salt-meats-cheese"
+          }
+        },
         "fe1672cb-473d-4dd9-8aac-774ea9f2c817": {
           "type": "featured_collection",
           "settings": {
@@ -107,6 +113,7 @@
         "4eaff548-c657-4b2e-82be-2f07def6e7f2",
         "4958c044-9439-490c-94db-afc0db3929a3",
         "0bd39c68-2aed-4e1e-81f0-02187c97ba58",
+        "16f5e42f-f571-471b-a181-ac5a1e126ca8",
         "fe1672cb-473d-4dd9-8aac-774ea9f2c817"
       ],
       "settings": {
