@@ -73,6 +73,15 @@
             "page": "",
             "icon": "none"
           }
+        },
+        "2b833e11-a099-40a2-b546-8a7b19c4dc68": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery Information",
+            "content": "<p><em>ChefPrep is currently delivering to:<\/em><br\/><strong>• <\/strong><em><strong>Sydney Metropolitan<\/strong><\/em><em> (12am – 5pm every Mon and Thu)<\/em><br\/><strong>• <\/strong><em><strong>Wollongong Coast<\/strong><\/em><em> (12am – 5pm every Mon and 9am – 5pm every Thu)<\/em><br\/>• <em><strong>NSW Central Coast <\/strong><\/em><em>(12am – 5pm every Mon)<\/em><br\/>• <em><strong>NSW Newcastle<\/strong><\/em><em> (12am – 5pm every Mon)<\/em><br\/>• <em><strong>Blue Mountains<\/strong><\/em><em> (12am – 5pm every Mon)<\/em><\/p><p><strong>Free delivery on orders over $100<\/strong><\/p><p>Check out our Delivery Page to confirm suburbs and for information on order cut off times and the delivery process.<\/p>",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
@@ -86,7 +95,8 @@
         "share",
         "017e3f54-7eb8-4158-b2f5-1d99a9f9900f",
         "d1de6a22-5efa-4cfc-98e1-288b3724d124",
-        "361a13b8-a3c6-41d2-857c-c9fc3b788125"
+        "361a13b8-a3c6-41d2-857c-c9fc3b788125",
+        "2b833e11-a099-40a2-b546-8a7b19c4dc68"
       ],
       "settings": {
         "enable_sticky_info": false,
