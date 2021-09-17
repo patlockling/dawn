@@ -159,7 +159,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Delivery_van.jpg",
-            "title": "2. Select Delivery Date and Time",
+            "title": "2. Select Your Delivery Day",
             "text": ""
           }
         },
