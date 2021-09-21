@@ -4,7 +4,7 @@ if(typeof Checkout === "object") {
     if(typeof Checkout.$ === "function") {     
         window.HarmonyShopifyConfig = {
         	//Get started with a FREE Trial licence key - https://hosted.mastersoftgroup.com/console/#/.
-            key: "patricia:mEvwoj-sidtyz-xikca5",
+            key: "ChefP21777:HEVqoCQHnamzk5xFfezRNO1FGov7onWh",
 			
           	//================ START optional lines =======================
             
