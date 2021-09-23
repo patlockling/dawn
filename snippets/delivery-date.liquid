@@ -32,12 +32,7 @@
             maxDate: '+2W',
             dateFormat: "dd/mm/yy",
             beforeShowDay:  function (date) {
-//               console.log('date is :' + date.getFullYear() + '-' + date.getMonth() + '-' + date.getDay());
-//               	console.log('date is ' + date.toDateString() );
-              
-              console.log('check ' + date.toDateString() + ':' +  $.inArray(date.toDateString(), holidays));
-              
-              if ($.inArray(date.getDay(), deliveryDates) != -1) {
+              if ($.inArray(date.getDay(), deliveryDates) != -1 && $.inArray(date.toDateString(), holidays) == -1) {
                 return [true, ''];
               } else {
                 return [false, ''];
