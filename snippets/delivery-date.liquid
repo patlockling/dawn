@@ -35,7 +35,7 @@
 //               console.log('date is :' + date.getFullYear() + '-' + date.getMonth() + '-' + date.getDay());
 //               	console.log('date is ' + date.toDateString() );
               
-              console.log('check ' + date.toDateString() ':' +  $.inArray(date.toDateString(), holidays));
+              console.log('check ' + date.toDateString() + ':' +  $.inArray(date.toDateString(), holidays));
               
               if ($.inArray(date.getDay(), deliveryDates) != -1) {
                 return [true, ''];
