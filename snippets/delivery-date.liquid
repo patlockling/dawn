@@ -19,6 +19,9 @@
     // Min days to order before next delivery
     const cutoff_days = 3;
     
+    // Holidays. Add here dates that should not be available in the calendar. Format YYYY-MM-DD
+    const holidays = ['2021-10-04'];
+    
     window.onload = function() {
       if (window.jQuery) {
         let $ = window.jQuery;
@@ -29,7 +32,8 @@
             maxDate: '+2W',
             dateFormat: "dd/mm/yy",
             beforeShowDay:  function (date) {
-              console.log('date is ' + date)
+              console.log('date is :' + date.getFullYear() + '-' + date.getMonth() + '-' + date.getDay());
+              
               if ($.inArray(date.getDay(), deliveryDates) != -1) {
                 return [true, ''];
               } else {
