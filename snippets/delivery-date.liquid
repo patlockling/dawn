@@ -18,7 +18,6 @@
     
     // Min days to order before next delivery
     const cutoff_days = 2;
-
     
     // Holidays. Add here dates that should not be available in the calendar. Format example: Thu Sep 30 2021
     const holidays = ['Mon Oct 04 2021'];
@@ -50,7 +49,6 @@
           
            upcomingDeliveryDate.setDate(today.getDate() + daysToSum + cutoff_days);
           console.log('date! ' + upcomingDeliveryDate); 
-          console.log('hour! ');
            $("#date").datepicker("setDate", upcomingDeliveryDate);
 
           
@@ -62,7 +60,6 @@
         function determineDaysToSum () {
           const today = new Date();
           const currentDay = today.getDay();
-          const hour = currentDay.getHours();
           
           const aux = currentDay + cutoff_days;
           let aux2 = aux;
