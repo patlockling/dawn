@@ -50,6 +50,7 @@
           
            upcomingDeliveryDate.setDate(today.getDate() + daysToSum + cutoff_days);
           console.log('date! ' + upcomingDeliveryDate); 
+          console.log('hour! ');
            $("#date").datepicker("setDate", upcomingDeliveryDate);
 
           
@@ -62,7 +63,6 @@
           const today = new Date();
           const currentDay = today.getDay();
           const hour = currentDay.getHours();
-          console.log(hour);
           
           const aux = currentDay + cutoff_days;
           let aux2 = aux;
