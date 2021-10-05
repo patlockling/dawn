@@ -61,6 +61,8 @@
         function determineDaysToSum () {
           const today = new Date();
           const currentDay = today.getDay();
+          const hour = currentDay.getHours();
+          console.log(hour);
           
           const aux = currentDay + cutoff_days;
           let aux2 = aux;
