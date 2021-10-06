@@ -76,6 +76,42 @@
         "layout": "image_first"
       }
     },
+    "16335610748c365837": {
+      "type": "rich-text",
+      "blocks": {
+        "16335610748c365837-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Order before 5pm for next day delivery",
+            "heading_size": "h1"
+          }
+        },
+        "16335610748c365837-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16335610748c365837-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Meals",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16335610748c365837-0",
+        "16335610748c365837-1",
+        "16335610748c365837-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16288526342842f579": {
       "type": "multicolumn",
       "blocks": {
@@ -344,6 +380,7 @@
   "order": [
     "image_banner",
     "1629850599ebb1ca53",
+    "16335610748c365837",
     "16288526342842f579",
     "featured_products",
     "16288530998201db34",
