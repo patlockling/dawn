@@ -40,44 +40,9 @@
         "adapt_height_first_image": false
       }
     },
-    "1629850599ebb1ca53": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1629850599ebb1ca53-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Make it a Father’s Day to remember"
-          }
-        },
-        "1629850599ebb1ca53-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You may not be able to see Dad in person this year, but you can still give him a Father’s Day to remember, with a special feast created by some of Sydney’s best restaurants.<\/p>"
-          }
-        },
-        "1629850599ebb1ca53-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/order-now-for-free-delivery-on-your-father-s-day-feast"
-          }
-        }
-      },
-      "block_order": [
-        "1629850599ebb1ca53-0",
-        "1629850599ebb1ca53-1",
-        "1629850599ebb1ca53-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/CP_Fathers_Day_v4_1.jpg",
-        "height": "adapt",
-        "color_scheme": "background-2",
-        "layout": "image_first"
-      }
-    },
     "16335610748c365837": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16335610748c365837-0": {
           "type": "heading",
@@ -379,7 +344,6 @@
   },
   "order": [
     "image_banner",
-    "1629850599ebb1ca53",
     "16335610748c365837",
     "16288526342842f579",
     "featured_products",
