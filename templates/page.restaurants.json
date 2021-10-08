@@ -79,30 +79,6 @@
           "settings": {
             "collection": "mordeo-bistro-bar"
           }
-        },
-        "0bd39c68-2aed-4e1e-81f0-02187c97ba58": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "olio-kensington-street"
-          }
-        },
-        "16f5e42f-f571-471b-a181-ac5a1e126ca8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "salt-meats-cheese"
-          }
-        },
-        "fe1672cb-473d-4dd9-8aac-774ea9f2c817": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stix"
-          }
-        },
-        "006e8301-42e2-4af6-9cf3-9a9995d356d7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vizio-caffe-e-cucina"
-          }
         }
       },
       "block_order": [
@@ -117,11 +93,57 @@
         "e21b1277-dd7e-4342-89a8-a9a97c14671a",
         "3475dbf3-3a5c-4654-bf43-fa029525110f",
         "4eaff548-c657-4b2e-82be-2f07def6e7f2",
-        "4958c044-9439-490c-94db-afc0db3929a3",
-        "0bd39c68-2aed-4e1e-81f0-02187c97ba58",
-        "16f5e42f-f571-471b-a181-ac5a1e126ca8",
-        "fe1672cb-473d-4dd9-8aac-774ea9f2c817",
-        "006e8301-42e2-4af6-9cf3-9a9995d356d7"
+        "4958c044-9439-490c-94db-afc0db3929a3"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16336742941a0074c2": {
+      "type": "collection-list",
+      "blocks": {
+        "953959ba-fe5b-425f-8b3e-35b5bc260ce3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "olio-kensington-street"
+          }
+        },
+        "16336742941a0074c2-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "salt-meats-cheese"
+          }
+        },
+        "16336742941a0074c2-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stix"
+          }
+        },
+        "16336742941a0074c2-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-malaya"
+          }
+        },
+        "b779ae99-a5e2-4cb2-99ea-df185115878b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vizio-caffe-e-cucina"
+          }
+        }
+      },
+      "block_order": [
+        "953959ba-fe5b-425f-8b3e-35b5bc260ce3",
+        "16336742941a0074c2-0",
+        "16336742941a0074c2-1",
+        "16336742941a0074c2-2",
+        "b779ae99-a5e2-4cb2-99ea-df185115878b"
       ],
       "settings": {
         "title": "",
@@ -135,6 +157,7 @@
   },
   "order": [
     "main",
-    "16291861531b1381e6"
+    "16291861531b1381e6",
+    "16336742941a0074c2"
   ]
 }
