@@ -97,6 +97,12 @@
           "settings": {
             "collection": "stix"
           }
+        },
+        "c391f517-8a6a-4c6e-8736-37aa3e291154": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vizio-caffe-e-cucina"
+          }
         }
       },
       "block_order": [
@@ -114,7 +120,8 @@
         "4958c044-9439-490c-94db-afc0db3929a3",
         "0bd39c68-2aed-4e1e-81f0-02187c97ba58",
         "16f5e42f-f571-471b-a181-ac5a1e126ca8",
-        "fe1672cb-473d-4dd9-8aac-774ea9f2c817"
+        "fe1672cb-473d-4dd9-8aac-774ea9f2c817",
+        "c391f517-8a6a-4c6e-8736-37aa3e291154"
       ],
       "settings": {
         "title": "",
