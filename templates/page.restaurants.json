@@ -14,12 +14,6 @@
             "collection": "albis-taverna"
           }
         },
-        "9507299d-8c21-47c3-a2e2-3f5ae93402a3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bare-wholefoods"
-          }
-        },
         "16291861531b1381e6-1": {
           "type": "featured_collection",
           "settings": {
@@ -98,6 +92,12 @@
             "collection": "stix"
           }
         },
+        "9507299d-8c21-47c3-a2e2-3f5ae93402a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-malaya"
+          }
+        },
         "7e21b33a-5028-47bb-997e-33320d7b399e": {
           "type": "featured_collection",
           "settings": {
@@ -107,7 +107,6 @@
       },
       "block_order": [
         "16291861531b1381e6-0",
-        "9507299d-8c21-47c3-a2e2-3f5ae93402a3",
         "16291861531b1381e6-1",
         "16291861531b1381e6-2",
         "d00d5d5e-9ecc-4b9b-b68a-c7ea84b49f05",
@@ -121,6 +120,7 @@
         "0bd39c68-2aed-4e1e-81f0-02187c97ba58",
         "16f5e42f-f571-471b-a181-ac5a1e126ca8",
         "fe1672cb-473d-4dd9-8aac-774ea9f2c817",
+        "9507299d-8c21-47c3-a2e2-3f5ae93402a3",
         "7e21b33a-5028-47bb-997e-33320d7b399e"
       ],
       "settings": {
