@@ -14,6 +14,12 @@
             "collection": "albis-taverna"
           }
         },
+        "9507299d-8c21-47c3-a2e2-3f5ae93402a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-malaya"
+          }
+        },
         "16291861531b1381e6-1": {
           "type": "featured_collection",
           "settings": {
@@ -90,12 +96,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "stix"
-          }
-        },
-        "9507299d-8c21-47c3-a2e2-3f5ae93402a3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-malaya"
           }
         },
         "7e21b33a-5028-47bb-997e-33320d7b399e": {
