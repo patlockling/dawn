@@ -22,7 +22,7 @@
 
       {%- liquid
         assign columns = section.blocks.size
-        if columns > 3
+        if columns > 2
           assign columns = 3
         endif
       -%}
@@ -121,7 +121,7 @@
   "name": "t:sections.collection-list.name",
   "tag": "section",
   "class": "spaced-section collection-list-section",
-  "max_blocks": 32,
+  "max_blocks": 24,
   "settings": [
     {
       "type": "text",
