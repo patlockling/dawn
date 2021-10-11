@@ -262,6 +262,7 @@
         "1629167547f91b423f-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5stars.png",
             "title": "",
             "text": "<p>\"Feedback from our family is one of raving excitement, food is great, it's almost like you are in the restaurant!\"<\/p><p><strong>Nick<\/strong><\/p>"
           }
@@ -277,6 +278,7 @@
         "38bef58b-391f-4262-aa1f-7731d428b6cb": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5stars.png",
             "title": "",
             "text": "<p>\"Perfect for now while we are in lockdown and can't go out a lot and kids are home as well.\"<\/p><p><\/p><p><strong>Shereen<\/strong><\/p>"
           }
@@ -284,6 +286,7 @@
         "1629167547f91b423f-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5stars.png",
             "title": "",
             "text": "<p>\"Loved their innovative new way of bringing ready made, delicious meals straight to your home.\"<\/p><p><\/p><p><strong>Carly<\/strong><\/p>"
           }
