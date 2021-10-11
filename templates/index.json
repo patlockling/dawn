@@ -151,7 +151,7 @@
         "16288530998201db34-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/multiple_ChefPrep_meals.jpg",
+            "image": "shopify:\/\/shop_images\/Step_1.jpg",
             "title": "1. Choose Meals from Multiple Restaurants",
             "text": ""
           }
@@ -159,7 +159,7 @@
         "16288530998201db34-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Delivery_van.jpg",
+            "image": "shopify:\/\/shop_images\/Step_2.jpg",
             "title": "2. Select Your Delivery Day",
             "text": ""
           }
@@ -167,7 +167,7 @@
         "16288530998201db34-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heated_ChefPrep_meal.jpg",
+            "image": "shopify:\/\/shop_images\/Step_3.jpg",
             "title": "3. Heat and enjoy",
             "text": ""
           }
