@@ -18,14 +18,22 @@
     "1629205306ef91ebc3": {
       "type": "rich-text",
       "blocks": {
+        "07dbff59-39ce-4c56-a8a2-160dff4d2fb0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Important Goods En Route",
+            "heading_size": "h1"
+          }
+        },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ChefPrep currently delivers to suburbs located in the Sydney Metropolitan region between 9am - 6pm every Monday, Wednesday and Friday. <\/p><p>We plan to expand our delivery areas to additional locations, so please stay tuned for future updates.<\/p>"
+            "text": "<p>We are currently delivering across the Sydney Metropolitan region between 9am - 6pm every Monday, Wednesday and Friday. <\/p><p>We are working like crazy to expand these delivery areas, so please stay tuned for future updates.<\/p>"
           }
         }
       },
       "block_order": [
+        "07dbff59-39ce-4c56-a8a2-160dff4d2fb0",
         "1629205306ef91ebc3-1"
       ],
       "settings": {
@@ -45,7 +53,7 @@
         "16292107120440baca-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Additional Delivery Details:<\/strong><\/p><p>• We offer zero contact delivery.<\/p><p>• Your order will be transported in a refrigerated truck and will arrive in a box with ice packs and insulation to keep the meals chilled.<\/p><p>• Our meal packages are freezer safe and microwave and oven safe for up to 20 minutes at 220 degrees celsius. Our box and meal packages are environmentally friendly and recyclable.<\/p><p>• You will receive a text message with a tracking link before the delivery date.<\/p><p>• You will receive a text message on the day of delivery to notify you of approximate delivery time.<\/p><p>• You will receive a text message and email after delivery has been completed.<\/p><p>• As deliveries may be left unattended in a safe area (at the discretion of our delivery provider), please ensure that you provide all relevant delivery instructions in the checkout process. This may include foyer access codes, instructions on where to leave the package if you are not home, etc.<\/p><p>For any service queries or support queries, please email: <a><span style=\"text-decoration:underline\">hello@chefprep.com.au<\/span><\/a>.<\/p><p>Our customer support line will be available between 9am - 6pm (Australian Eastern Standard Time) Monday to Friday.<\/p>"
+            "text": "<p><strong>All the extra delivery information (for those who like the details)<\/strong><\/p><p>• We offer zero contact delivery.<\/p><p>• Your order will be transported in a refrigerated truck and will arrive in a box with ice packs and insulation to keep the meals chilled.<\/p><p>• Most meals are packaged in biodegradable packages which are freezer safe, microwave and oven safe for up to 20 minutes at 220 degrees celsius. Our delivery box is recyclable and most meal packages are biodegradable.<\/p><p>• You will receive a text message with a tracking link before the delivery date.<\/p><p>• You will receive a text message on the day of delivery to notify you of approximate delivery time.<\/p><p>• You will receive a text message and email after delivery has been completed.<\/p><p>• As deliveries may be left unattended in a safe area (at the discretion of our delivery provider), please ensure that you provide all relevant delivery instructions in the checkout process. This may include foyer access codes, instructions on where to leave the package if you are not home, etc.<\/p><p>For any service queries or support queries, please email: <a><span style=\"text-decoration:underline\">hello@chefprep.com.au<\/span><\/a>.<\/p><p>Our customer support line will be available between 9am - 6pm (Australian Eastern Standard Time) Monday to Friday.<\/p>"
           }
         },
         "16292107120440baca-2": {
