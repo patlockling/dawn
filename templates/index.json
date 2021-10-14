@@ -97,13 +97,13 @@
         "162885260804a4151a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe and Save!"
+            "heading": "Hungry for ChefPrep Updates?"
           }
         },
         "162885260804a4151a-1": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Sign up to our newsletter to get 20% off your next order over $100 and keep up to date with new restaurants.<\/p>"
+            "paragraph": "<p>Sign up to our newsletter to get tasty treats delivered to your inbox and 20% off your next order over $100.<\/p>"
           }
         },
         "162885260804a4151a-2": {
@@ -298,7 +298,7 @@
         "16288526342842f579-1"
       ],
       "settings": {
-        "title": "Featured in",
+        "title": "You may have seen us in",
         "image_width": "third",
         "image_ratio": "square",
         "column_alignment": "center",
