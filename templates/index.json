@@ -91,50 +91,6 @@
         "show_vendor": true
       }
     },
-    "16288530998201db34": {
-      "type": "multicolumn",
-      "blocks": {
-        "16288530998201db34-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Step_1.jpg",
-            "title": "1. Choose Meals from Multiple Restaurants",
-            "text": ""
-          }
-        },
-        "16288530998201db34-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Step_2.jpg",
-            "title": "2. Select Your Delivery Day",
-            "text": ""
-          }
-        },
-        "16288530998201db34-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Step_3.jpg",
-            "title": "3. Heat and enjoy",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "16288530998201db34-0",
-        "16288530998201db34-1",
-        "16288530998201db34-2"
-      ],
-      "settings": {
-        "title": "How it works",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "162885260804a4151a": {
       "type": "newsletter",
       "blocks": {
@@ -255,6 +211,50 @@
         "swipe_on_mobile": true
       }
     },
+    "16288530998201db34": {
+      "type": "multicolumn",
+      "blocks": {
+        "16288530998201db34-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_1.jpg",
+            "title": "Say goodbye to ordering from one restaurant at a time!",
+            "text": "<p>Now you can select meals from different restaurants in the one order (yes, it's pretty cool).<\/p>"
+          }
+        },
+        "16288530998201db34-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_2.jpg",
+            "title": "Select Your Delivery Day",
+            "text": "<p>ChefPrep collects and packs your meals with tender love and care ahead of your selected delivery day.<\/p>"
+          }
+        },
+        "16288530998201db34-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_3.jpg",
+            "title": "Once your meals arrive, all you need to do is follow the preparation instructions.",
+            "text": "<p>Don't worry, there is no cooking involved - just heating!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16288530998201db34-0",
+        "16288530998201db34-1",
+        "16288530998201db34-2"
+      ],
+      "settings": {
+        "title": "How ChefPrep Works",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "16288526342842f579": {
       "type": "multicolumn",
       "blocks": {
@@ -348,10 +348,10 @@
     "image_banner",
     "16335610748c365837",
     "featured_products",
-    "16288530998201db34",
     "162885260804a4151a",
     "16291666415b86e5bb",
     "1629167547f91b423f",
+    "16288530998201db34",
     "16288526342842f579",
     "16309954415d71656e"
   ]
