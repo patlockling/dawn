@@ -50,6 +50,12 @@
             "collection": "foodie-del-mar"
           }
         },
+        "57936ecc-6a45-448c-aa9c-30586389798e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "foreign-return"
+          }
+        },
         "3f75275b-9111-476f-b450-e28ad058cf96": {
           "type": "featured_collection",
           "settings": {
@@ -73,12 +79,6 @@
           "settings": {
             "collection": "maybe-frank"
           }
-        },
-        "4958c044-9439-490c-94db-afc0db3929a3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mordeo-bistro-bar"
-          }
         }
       },
       "block_order": [
@@ -89,11 +89,11 @@
         "d00d5d5e-9ecc-4b9b-b68a-c7ea84b49f05",
         "c63eb042-4f4f-4272-8255-dac5a09c6104",
         "2e63e53c-a929-4275-b64f-06e43a860e60",
+        "57936ecc-6a45-448c-aa9c-30586389798e",
         "3f75275b-9111-476f-b450-e28ad058cf96",
         "e21b1277-dd7e-4342-89a8-a9a97c14671a",
         "3475dbf3-3a5c-4654-bf43-fa029525110f",
-        "4eaff548-c657-4b2e-82be-2f07def6e7f2",
-        "4958c044-9439-490c-94db-afc0db3929a3"
+        "4eaff548-c657-4b2e-82be-2f07def6e7f2"
       ],
       "settings": {
         "title": "",
@@ -107,6 +107,12 @@
     "16336742941a0074c2": {
       "type": "collection-list",
       "blocks": {
+        "15515810-dabd-4566-acdc-576ed08dc406": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mordeo-bistro-bar"
+          }
+        },
         "953959ba-fe5b-425f-8b3e-35b5bc260ce3": {
           "type": "featured_collection",
           "settings": {
@@ -139,6 +145,7 @@
         }
       },
       "block_order": [
+        "15515810-dabd-4566-acdc-576ed08dc406",
         "953959ba-fe5b-425f-8b3e-35b5bc260ce3",
         "16336742941a0074c2-0",
         "16336742941a0074c2-1",
