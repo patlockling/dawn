@@ -78,7 +78,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Delivery Information",
-            "content": "<p>ChefPrep currently delivers to suburbs located in the Sydney Metropolitan region between 9am - 6pm every Monday and Thursday. <\/p><p><strong>Free delivery on orders over $100<\/strong><\/p><p>Check out our Delivery Page to confirm suburbs and for information on order cut off times and the delivery process.<\/p>",
+            "content": "<p>ChefPrep currently delivers to suburbs located in the Sydney Metropolitan region between 9am - 6pm every Monday, Wednesday and Friday. <\/p><p><strong>Free delivery on orders over $100<\/strong><\/p><p>Check out our Delivery Page to confirm suburbs and for information on order cut off times and the delivery process.<\/p>",
             "page": "",
             "icon": "none"
           }
