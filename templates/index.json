@@ -126,16 +126,16 @@
     "16291666415b86e5bb": {
       "type": "collection-list",
       "blocks": {
+        "16291666415b86e5bb-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "foreign-return"
+          }
+        },
         "16291666415b86e5bb-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "the-malaya"
-          }
-        },
-        "16291666415b86e5bb-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "maybe-frank"
           }
         },
         "16291666415b86e5bb-2": {
@@ -146,8 +146,8 @@
         }
       },
       "block_order": [
-        "16291666415b86e5bb-0",
         "16291666415b86e5bb-1",
+        "16291666415b86e5bb-0",
         "16291666415b86e5bb-2"
       ],
       "settings": {
