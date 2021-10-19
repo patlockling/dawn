@@ -5,175 +5,152 @@
       "settings": {
       }
     },
-    "1629778220db1a8c15": {
-      "type": "multicolumn",
-      "blocks": {
-        "1629778220db1a8c15-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CP_FathersDay_350x250_1.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1629778220db1a8c15-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CP_FathersDay_350x250_2.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1629778220db1a8c15-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CP_FathersDay_350x250_3.png",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1629778220db1a8c15-0",
-        "1629778220db1a8c15-1",
-        "1629778220db1a8c15-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "1629205306ef91ebc3": {
       "type": "rich-text",
       "blocks": {
         "1629205306ef91ebc3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Plus, your chance to win one of three family meals valued at up to $200*",
+            "heading": "Why choose ChefPrep as your next food delivery partner?",
             "heading_size": "h2"
           }
         },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You may not be able to see Dad in person this year, but you can still give him a Father’s Day to remember, with a special feast created by some of Sydney’s best restaurants.<\/p><p> <\/p><p>Order your Father’s Day feast by <strong>August 31 <\/strong>and get direct delivery to Dad, or order meals for the whole family so you can enjoy a virtual dinner together! We deliver to most of NSW. Not sure if we deliver to your Dad or a family member? Ask us in the chat or send us an email at <a href=\"mailto:hello@chefprep.com.au\" target=\"_blank\">hello@chefprep.com.au<\/a><\/p><p> <\/p><p><strong>Place your order now and use the code FATHERSDAY2021 at checkout to enjoy free delivery on all your Father’s Day orders, plus go into the draw to win your family meal on us.*<\/strong><\/p><p> <\/p><p>Our delicious chef-prepared meals are frozen for freshness and delivered by Thursday 2 September, making it easier than ever to enjoy a restaurant-quality meal in your own home this Father’s Day. Simply defrost, heat and enjoy!<\/p>"
-          }
-        },
-        "1629205306ef91ebc3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Order now",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
+            "text": "<p>ChefPrep’s mission is to empower hospitality businesses to reach new customers and unlock new revenue streams without compromising your core business. <\/p><p><br\/>We live and breathe hospitality and we understand that running a hospitality business requires a huge amount of focus and dedication. <\/p><p><br\/>Enter ChefPrep…we have developed an online marketplace to <em><strong>compliment <\/strong><\/em>your existing business model by allowing you to make money while you sleep!<\/p>"
           }
         }
       },
       "block_order": [
         "1629205306ef91ebc3-0",
-        "1629205306ef91ebc3-1",
-        "1629205306ef91ebc3-2"
+        "1629205306ef91ebc3-1"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
       }
     },
-    "16297972367e37426e": {
+    "1634633219d17d85f3": {
       "type": "rich-text",
       "blocks": {
-        "16297972367e37426e-1": {
+        "1634633219d17d85f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is unique about ChefPrep?",
+            "heading_size": "h2"
+          }
+        },
+        "1634633219d17d85f3-1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>*To receive free delivery and enter the competition, use the code FATHERSDAY2021 at checkout. Offer ends August 31 2021, 11.59pm AEST. <\/em><a href=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\" target=\"_blank\" title=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\"><em>Competition T&C apply<\/em><\/a><em>.<\/em><\/p>"
+            "text": "<p>ChefPrep’s unique frozen model enables you to produce meals at times that are <em><strong>convenient <\/strong><\/em>for your business (i.e. not when you’re in the middle of dinner service!).<\/p><p><br\/>We also <em><strong>handle all the boring bits<\/strong><\/em> - like packaging, logistics, storage, delivery and customer support - so that you can focus on making great food! <\/p><p><strong>Interested in finding out more?<\/strong><\/p>"
+          }
+        },
+        "1634633219d17d85f3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign up now",
+            "button_link": "https:\/\/share.hsforms.com\/1QXWp2WSAQ32Y_qm45VCHjAc35u9",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "16297972367e37426e-1"
+        "1634633219d17d85f3-0",
+        "1634633219d17d85f3-1",
+        "1634633219d17d85f3-2"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
       }
     },
-    "162977825030c9f74e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Let's get you started with some of our current favourites",
-        "collection": "current-favourites",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "16297784293995eae1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Looking for a dessert to satisfy that sweet tooth?",
-        "collection": "sweet-tooth",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "1629778516a930dd8d": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Is someone in your family a vegetarian? we got you covered.",
-        "collection": "vegetarian",
-        "products_to_show": 4,
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "16300380892b08752c": {
-      "type": "rich-text",
+    "16346333223bddb828": {
+      "type": "multicolumn",
       "blocks": {
-        "16300380892b08752c-1": {
-          "type": "text",
+        "16346333223bddb828-0": {
+          "type": "column",
           "settings": {
-            "text": "<p><a href=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\" target=\"_blank\" title=\"https:\/\/chefprep.medium.com\/chefprep-fathers-day-2021-t-8cf859356f10\">Terms and Conditions<\/a><\/p>"
+            "image": "shopify:\/\/shop_images\/5stars.png",
+            "title": "JAVED KHAN - Owner of Delhi 'O' Delhi:",
+            "text": "<p>Many delivery services take very high commissions, which leaves us with very little profit to run the business.<\/p><p><br\/><\/p><p>For this reason, we were very excited to partner with ChefPrep, supporting local jobs and the economy. We have been working with the team for a number of months to help them develop the platform. We are very happy that we are able to serve our meals to a large number of customers through the site which offers access to customers all throughout NSW, and a better share of the commission.<\/p>"
+          }
+        },
+        "16346333223bddb828-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5stars.png",
+            "title": "DAVID ALLISON - Owner of Stix:",
+            "text": "<p>We decided to partner with ChefPrep for a number of different reasons;<\/p><p><br\/><\/p><p>Firstly, their model allows our business to prepare meals at times that are convenient for us rather than in the middle of a busy service period when time and resources are limited.<\/p><p><br\/><\/p><p>Secondly, they have a much larger geographical reach than we can service ourselves or provide through other food delivery platforms. This means that we get access to customers that wouldn't otherwise order from or dine at STIX.<\/p>"
           }
         }
       },
       "block_order": [
-        "16300380892b08752c-1"
+        "16346333223bddb828-0",
+        "16346333223bddb828-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "title": "Not quite convinced? Here’s what our partners think about ChefPrep",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "16346334786c4ec369": {
+      "type": "multicolumn",
+      "blocks": {
+        "16346334786c4ec369-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_1.jpg",
+            "title": "",
+            "text": "<p>You batch products and we courier them to our fulfillment centre. We provide you with packaging and assist with labelling.<\/p>"
+          }
+        },
+        "16346334786c4ec369-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_2.jpg",
+            "title": "",
+            "text": "<p>Orders are consolidated by ChefPrep and are delivered to customers via cold transport.<\/p>"
+          }
+        },
+        "16346334786c4ec369-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_3.jpg",
+            "title": "",
+            "text": "<p>You are paid for products sold via the CHefPrep platform and ChefPrep manages customer support and marketing.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16346334786c4ec369-0",
+        "16346334786c4ec369-1",
+        "16346334786c4ec369-2"
+      ],
+      "settings": {
+        "title": "How does ChefPrep work?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Sign up now",
+        "button_link": "https:\/\/share.hsforms.com\/1QXWp2WSAQ32Y_qm45VCHjAc35u9",
+        "swipe_on_mobile": false
       }
     }
   },
   "order": [
     "main",
-    "1629778220db1a8c15",
     "1629205306ef91ebc3",
-    "16297972367e37426e",
-    "162977825030c9f74e",
-    "16297784293995eae1",
-    "1629778516a930dd8d",
-    "16300380892b08752c"
+    "1634633219d17d85f3",
+    "16346333223bddb828",
+    "16346334786c4ec369"
   ]
 }
