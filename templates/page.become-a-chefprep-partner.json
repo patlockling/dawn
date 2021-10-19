@@ -92,7 +92,7 @@
       ],
       "settings": {
         "title": "Not quite convinced? Here’s what our partners think about ChefPrep",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
