@@ -390,6 +390,9 @@
     "filters": {
       "vendor": {
         "label": "Restaurant"
+      },
+      "product_type": {
+        "label": "Cuisine"
       }
     }
   }
