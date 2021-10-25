@@ -108,6 +108,34 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "163513875658f60f97": {
+      "type": "rich-text",
+      "blocks": {
+        "163513875658f60f97-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to order?",
+            "heading_size": "h2"
+          }
+        },
+        "163513875658f60f97-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse meals",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163513875658f60f97-0",
+        "163513875658f60f97-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -115,6 +143,7 @@
     "1629208591b2779ddb",
     "1629208652eedad6ed",
     "1629208700a52cd02c",
-    "162920874020463331"
+    "162920874020463331",
+    "163513875658f60f97"
   ]
 }
