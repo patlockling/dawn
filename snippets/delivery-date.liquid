@@ -1,111 +1,159 @@
 <!--Custom: Delivery date day picker--> 
 
 {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }}
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
 
-  <div style="width:300px; clear:both;">
-    <p>
-      <label for="date">Pick a delivery date:</label>
-      <input id="date" type="text" name="attributes[Delivery Date]" value="{{ cart.attributes.date }}" />
-      <span style="display:block" class="instructions"> All orders will be delivered between 9am and 6pm</span>
-    </p>
-  </div>
+<div style="width:300px; clear:both;">
+  <p>
+    <label for="date">Pick a delivery date:</label>
+    <input id="date" type="text" name="attributes[Delivery Date]" value="{{ cart.attributes.date }}" />
+    <span style="display:block" class="instructions"> All orders will be delivered between 9am and 6pm</span>
+  </p>
+</div>
 
-  <script>
-    
-    //Our current delivery days. 1=Monday 4=Thursday
-    const deliveryDates = [1,3,5];
-    
-    // Min days to order before next delivery
-    const cutoff_days = 2
-    const cutoff_time = 17
-    
-    // Holidays. Add here dates that should not be available in the calendar. Format example: Thu Sep 30 2021
-    const holidays = ['Mon Oct 04 2021','Mon Nov 01 2021'];
-    
-    window.onload = function() {
-      if (window.jQuery) {
-        let $ = window.jQuery;
+<script>
+  const DELIVERY_DAYS = [1, 3, 5];
+  const HOLIDAYS = ['2021-11-01'];
 
-        $(function() {
-          $("#date").datepicker({
-            minDate: cutoff_days, 
-            maxDate: '+2W',
-            dateFormat: "dd/mm/yy",
-            beforeShowDay:  function (date) {
-              if ($.inArray(date.getDay(), deliveryDates) != -1 && $.inArray(date.toDateString(), holidays) == -1) {
-                return [true, ''];
-              } else {
-                return [false, ''];
-              }}
-          });
-          
-          $('#date').attr('readonly','readonly');
-          
-          // Set default to the upcoming available date
-          const today = new Date();
-          const upcomingDeliveryDate = new Date();
-          const daysToSum = determineDaysToSum();
-          
-          
-           upcomingDeliveryDate.setDate(today.getDate() + daysToSum + cutoff_days);
-          console.log('date! ' + upcomingDeliveryDate); 
-           $("#date").datepicker("setDate", upcomingDeliveryDate);
+  const deliveryDayRuleMap = [
+    {
+      24: 3,  // Sunday -> Wednesday
+    },
+    {
+      24: 2,  // Monday -> Wednesday
+    },
+    {
+      17: 1,  // Tuesday before 5pm -> Wednesday
+      24: 3,  // Tuesday after 5pm -> Friday
+    },
+    {
+      24: 2,  // Wednesday -> Friday
+    },
+    {
+      17: 1,  // Thursday before 5pm -> Friday
+      24: 4,  // Thursday after 5pm -> Monday
+    },
+    {
+      17: 3,  // Friday before 5pm -> Monday
+      24: 5,  // Friday after 5pm -> Wednesday
+    },
+    {
+      24: 4,  // Saturday -> Wednesday
+    }
+  ];
 
-          
-          
-        });
-        
-        
-          
-        function determineDaysToSum () {
-          const today = new Date();
-          const currentDay = today.getDay();
-//           const hour = today.getHours();
-//           console.log(hour);
-//           if (hour >= cutoff_time) {
-//           	cuttoff_days ++;
-//           }
-          
-          const aux = currentDay + cutoff_days;
-          let aux2 = aux;
-          
-          // Check if the calculated day falls in one of the delivery dates. If yes, then use that
-          let search = $.inArray(aux2, deliveryDates);
-          if (search != -1) {
-            return 0;
-          }
-          
-          // Check if calculated day > max in array, in that case pick the first day of next week
-          if (aux2 > Math.max(...deliveryDates)) {
-            let selected = Math.min(...deliveryDates);
-          	return 7 - aux2 + selected;  
-          }
-          
-          // If none of the conditions above match, iterate through available days and find the closest one          
-          for (let i = 0; i < deliveryDates.length; i++){
-            if (aux2 <= deliveryDates[i]) {
-              return deliveryDates[i] - aux2;
-            }
-          }
-          
-        }
-        
+  const convertToSydneyTime = (date) => {
+    const invDate = new Date(date.toLocaleString('en-US', {
+      timeZone: 'Australia/Sydney'
+    }));
+
+    var diff = date.getTime() - invDate.getTime();
+    return new Date(date.getTime() - diff);
+  }
+
+  const getToday = () => convertToSydneyTime(new Date());
+
+  const getISODateString = (date) => new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().substring(0, 10);
+
+  const getNumberOfDaysToDelivery = () => {
+    const today = getToday();
+    const hour = today.getHours();
+
+    const deliveryDayRule = deliveryDayRuleMap[today.getDay()];
+    const cutOffTimes = Object.keys(deliveryDayRule);
+
+    let numberOfDaysToDelivery;
+    for (let cutOffTime of cutOffTimes) {
+      if (hour < cutOffTime) {
+        numberOfDaysToDelivery = deliveryDayRule[cutOffTime];
+        break;
       }
     }
+
+    return numberOfDaysToDelivery;
+  };
+
+  const getUpcomingDeliveryDate = (daysToDelivery = getNumberOfDaysToDelivery()) => {
+    const upcomingDeliveryDate = getToday();
+    upcomingDeliveryDate.setDate(new Date().getDate() + daysToDelivery);
+    return upcomingDeliveryDate;
+  };
+
+  const isHoliday = (date) => HOLIDAYS.some(holiday => getISODateString(date) === holiday);
+
+  const setDateIfNotHoliday = (daysToDelivery) => {
+    const upcomingDeliveryDate = getUpcomingDeliveryDate(daysToDelivery);
+    if (!isHoliday(upcomingDeliveryDate)) {
+      $('#date').datepicker('setDate', upcomingDeliveryDate);
+      return true;
+    }
+
+    return false;
+  }
+
+  window.onload = () => {
+    if (!window.jQuery) {
+      return;
+    }
+
+    const $ = window.jQuery;
+
+    $(() => {
+      $("#date").datepicker({
+      minDate: 1, 
+      maxDate: '+2W',
+      dateFormat: 'dd/mm/yy',
+      beforeShowDay: (date) => {
+        if (isHoliday(date)) {
+          return [false, ''];
+        }
+
+        if (!DELIVERY_DAYS.some(deliveryDay => date.getDay() === deliveryDay)) {
+          return [false, ''];
+        }
+
+        return [getISODateString(date) >= getISODateString(getUpcomingDeliveryDate()), ''];
+      }
+    });
+
+    if (setDateIfNotHoliday()) {
+      return;
+    }
+
+    const today = getToday();
+
+    const sortedDeliveryDayRuleMap = [...deliveryDayRuleMap];
+    const deliveryDaysBeforeToday = sortedDeliveryDayRuleMap.splice(0, today.getDay());
+    sortedDeliveryDayRuleMap.push(...deliveryDaysBeforeToday);
+    sortedDeliveryDayRuleMap.push(...sortedDeliveryDayRuleMap);
+
+    const validDeliveryDaysForToday = Object.entries(sortedDeliveryDayRuleMap[0])
+    .filter(rule => rule[0] > today.getHours())
+    .reduce((acc, currValue) => {
+      acc[currValue[0]] = currValue[1];
+      return acc;
+    }, {});
+
+    sortedDeliveryDayRuleMap[0] = validDeliveryDaysForToday;
+
+    for (let i = 0; i < sortedDeliveryDayRuleMap.length; i++) {
+      const rule = Object.values(sortedDeliveryDayRuleMap[i]);
+      let hasFoundDeliveryDate = false;
+
+      for (let daysToDelivery of rule) {
+        if (setDateIfNotHoliday(i + daysToDelivery)) {
+          hasFoundDeliveryDate = true;
+          break;
+        }
+      }
+
+      if (hasFoundDeliveryDate) {
+        break;
+      }
+    }
+  });
+  }
 </script>
-<!--Custom: Time picker--> 
- {% comment %}
-<div style="width:300px; clear:both;">
-<p class="cart-attribute__field">
-  <label>Delivery Time</label><br>
-  <select required class="required" id="delivery-time" name="attributes[Delivery Time]" value="{{ cart.attributes.time }}">
-    <option value="12:00 AM - 7:00 AM"{% if cart.attributes["Delivery Time"] == "12:00 AM - 7:00 AM" %} selected{% endif %}>12:00 AM - 7:00 AM</option>
-    <option value="8:00 AM - 5:00 PM"{% if cart.attributes["Delivery Time"] == "8:00 AM - 6 PM" %} selected{% endif %}>8:00 AM - 5:00 PM</option>
-  </select>
-</p>
-</div>
-{% endcomment %}
 
 {% style %}
 .ui-datepicker {
