@@ -115,6 +115,8 @@
         return [getISODateString(date) >= getISODateString(getUpcomingDeliveryDate()), ''];
       }
     });
+    
+    $('#date').attr('readonly','readonly');
 
     if (setDateIfNotHoliday()) {
       return;
