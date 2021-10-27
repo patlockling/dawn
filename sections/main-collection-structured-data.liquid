@@ -1,14 +1,16 @@
 {% assign collectionDescriptionParts = collection.description | split: '<p>' %}
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Restaurant",
-  "name": "{{ collection.title }}",
-  "description": "{{ collectionDescriptionParts[1] | strip_html }}",
-  "hasMenu": "{{ shop.url | append: collection.url }}"
-}
-</script>
+<div class="{%- if section.settings.has_sections_below -%}non-spaced-section{% endif %}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "{{ collection.title }}",
+    "description": "{{ collectionDescriptionParts[1] | strip_html }}",
+    "hasMenu": "{{ shop.url | append: collection.url }}"
+  }
+  </script>
+</div>
 
 {% schema %}
   {
