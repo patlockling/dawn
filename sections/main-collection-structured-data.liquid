@@ -4,7 +4,7 @@
   "@type": "Restaurant",
   "name": {{ collection.title }},
   "description": {{ collection.description }},
-  "hasMenu": {{ collection.url }},
+  "hasMenu": {{ shop.domain | append: collection.url }},
 }
 </script>
 
