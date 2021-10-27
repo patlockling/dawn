@@ -1,3 +1,9 @@
+{% style %}
+.non-spaced-section {
+  margin-bottom: -5rem;
+}
+{% endstyle %}
+
 {% assign collectionDescriptionParts = collection.description | split: '<p>' %}
 
 <div class="{%- if section.settings.has_sections_below -%}non-spaced-section{% endif %}">
