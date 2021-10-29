@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1629205306ef91ebc3": {
+      "type": "rich-text",
+      "blocks": {
+        "1629205306ef91ebc3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why choose ChefPrep as your next food delivery partner?",
+            "heading_size": "h2"
+          }
+        },
+        "1629205306ef91ebc3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ChefPrep’s mission is to empower hospitality businesses to reach new customers and unlock new revenue streams without compromising your core business. <\/p><p>We live and breathe hospitality and we understand that running a hospitality business requires a huge amount of focus and dedication. <\/p><p>Enter ChefPrep… we have developed an online marketplace to <em><strong>complement <\/strong><\/em>your existing business model by allowing you to make money while you sleep!<\/p><p><strong>Interested in finding out more?<\/strong><\/p>"
+          }
+        },
+        "d6892d10-d80c-4a5c-b563-0b6fac6a1a39": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register your interest",
+            "button_link": "https:\/\/share.hsforms.com\/1QXWp2WSAQ32Y_qm45VCHjAc35u9",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1629205306ef91ebc3-0",
+        "1629205306ef91ebc3-1",
+        "d6892d10-d80c-4a5c-b563-0b6fac6a1a39"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634633219d17d85f3": {
+      "type": "rich-text",
+      "blocks": {
+        "1634633219d17d85f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is unique about ChefPrep?",
+            "heading_size": "h2"
+          }
+        },
+        "1634633219d17d85f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ChefPrep’s unique model enables you to produce meals at times that are <em><strong>convenient <\/strong><\/em>for your business (i.e. not when you’re in the middle of dinner service!).<\/p><p>We also <em><strong>handle all the boring bits<\/strong><\/em> - like packaging, logistics, storage, delivery and customer support - so that you can focus on making great food! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634633219d17d85f3-0",
+        "1634633219d17d85f3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16346333223bddb828": {
+      "type": "multicolumn",
+      "blocks": {
+        "16346333223bddb828-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5stars.png",
+            "title": "JAVED KHAN - Owner of Delhi 'O' Delhi:",
+            "text": "<p>Many delivery services take very high commissions, which leaves us with very little profit to run the business.<\/p><p><br\/><\/p><p>For this reason, we were very excited to partner with ChefPrep, supporting local jobs and the economy. We have been working with the team for a number of months to help them develop the platform. We are very happy that we are able to serve our meals to a large number of customers through the site which offers access to customers all throughout NSW, and a better share of the commission.<\/p>"
+          }
+        },
+        "16346333223bddb828-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5stars.png",
+            "title": "DAVID ALLISON - Owner of Stix:",
+            "text": "<p>We decided to partner with ChefPrep for a number of different reasons;<\/p><p><br\/><\/p><p>Firstly, their model allows our business to prepare meals at times that are convenient for us rather than in the middle of a busy service period when time and resources are limited.<\/p><p><br\/><\/p><p>Secondly, they have a much larger geographical reach than we can service ourselves or provide through other food delivery platforms. This means that we get access to customers that wouldn't otherwise order from or dine at STIX.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16346333223bddb828-0",
+        "16346333223bddb828-1"
+      ],
+      "settings": {
+        "title": "Not quite convinced? Here’s what our partners think about ChefPrep",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "16346334786c4ec369": {
+      "type": "multicolumn",
+      "blocks": {
+        "16346334786c4ec369-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_1.jpg",
+            "title": "",
+            "text": "<p>You batch products and we courier them to our fulfillment centre. We provide you with packaging and assist with labelling.<\/p>"
+          }
+        },
+        "16346334786c4ec369-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_2.jpg",
+            "title": "",
+            "text": "<p>Orders are consolidated by ChefPrep and are delivered to customers via cold transport.<\/p>"
+          }
+        },
+        "16346334786c4ec369-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Step_3.jpg",
+            "title": "",
+            "text": "<p>You are paid for products sold via the ChefPrep platform and ChefPrep manages customer support and marketing.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16346334786c4ec369-0",
+        "16346334786c4ec369-1",
+        "16346334786c4ec369-2"
+      ],
+      "settings": {
+        "title": "How does ChefPrep work?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Join the waitlist",
+        "button_link": "https:\/\/share.hsforms.com\/1QXWp2WSAQ32Y_qm45VCHjAc35u9",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1629205306ef91ebc3",
+    "1634633219d17d85f3",
+    "16346333223bddb828",
+    "16346334786c4ec369"
+  ]
+}
