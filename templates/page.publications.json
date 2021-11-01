@@ -17,7 +17,7 @@
         "1635471396a267cea0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>urbanlist.com -  22nd Jul 2021<\/p>"
+            "text": "<p><a href=\"https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney\" target=\"_blank\" title=\"https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney\">Urban List<\/a> -  22 July 2021<\/p>"
           }
         },
         "1635471396a267cea0-2": {
@@ -46,13 +46,13 @@
         "163547169016b5c770-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "You Can Now Get Frozen Meals Delivered From Top Sydney Restaurants"
           }
         },
         "163547169016b5c770-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p><a href=\"https:\/\/www.ellaslist.com.au\/articles\/you-can-now-get-frozen-meals-delivered-from-top-sydney-restaurants\" target=\"_blank\" title=\"https:\/\/www.ellaslist.com.au\/articles\/you-can-now-get-frozen-meals-delivered-from-top-sydney-restaurants\"><em>ellaslist<\/em><\/a> - 14 September 2021<\/p>"
           }
         },
         "163547169016b5c770-2": {
@@ -73,11 +73,46 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "163572539161c9f723": {
+      "type": "image-with-text",
+      "blocks": {
+        "163572539161c9f723-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "163572539161c9f723-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163572539161c9f723-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163572539161c9f723-0",
+        "163572539161c9f723-1",
+        "163572539161c9f723-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "main",
     "1635471396a267cea0",
-    "163547169016b5c770"
+    "163547169016b5c770",
+    "163572539161c9f723"
   ]
 }
