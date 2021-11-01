@@ -8,6 +8,7 @@
     "@type": "Restaurant",
     "name": "{{ collection.title }}",
     "description": "{{ promoSplit[0] | strip_html }}",
+    "address": "{{ addressSplit[1] | strip_html }}"
     "hasMenu": "{{ shop.url | append: collection.url }}"
   }
   </script>
