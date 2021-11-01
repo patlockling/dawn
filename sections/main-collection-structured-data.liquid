@@ -1,4 +1,4 @@
-{% assign collectionDescriptionParts = collection.description | split: '<h5' %}
+{% assign collectionDescriptionParts = collection.description | split: '<h5 class="location" data-mce-fragment="1">' %}
 
 <div style="{%- if section.settings.has_sections_below -%}margin-bottom: -5rem{% endif %}">
   <script type="application/ld+json">
