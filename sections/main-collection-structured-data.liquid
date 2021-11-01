@@ -1,4 +1,4 @@
-{% assign collectionDescriptionParts = collection.description | split: '</h5>' %}
+{% assign collectionDescriptionParts = collection.description | strip_newlines | split: '</h5>' %}
 
 <div style="{%- if section.settings.has_sections_below -%}margin-bottom: -5rem{% endif %}">
   <script type="application/ld+json">
