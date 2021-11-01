@@ -1,5 +1,5 @@
 {% assign addressSplit = collection.description | strip_newlines | split: '</h5>' %}
-{% assign promoSplit = addressSplit | split: '<h3>' %}
+{% assign promoSplit = addressSplit[1] | split: '<h3>' %}
 
 <div style="{%- if section.settings.has_sections_below -%}margin-bottom: -5rem{% endif %}">
   <script type="application/ld+json">
