@@ -1,11 +1,5 @@
 {
   "sections": {
-    "structured-data": {
-      "type": "main-collection-structured-data",
-      "settings": {
-        "has_sections_below": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -29,7 +23,6 @@
     }
   },
   "order": [
-    "structured-data",
     "banner",
     "product-grid"
   ]
