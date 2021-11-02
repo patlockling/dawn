@@ -95,10 +95,10 @@
     "16291666415b86e5bb": {
       "type": "collection-list",
       "blocks": {
-        "16291666415b86e5bb-1": {
+        "88fca319-3ab6-4246-912b-64b9b6dd8389": {
           "type": "featured_collection",
           "settings": {
-            "collection": "foreign-return"
+            "collection": "drumplings"
           }
         },
         "16291666415b86e5bb-0": {
@@ -107,17 +107,17 @@
             "collection": "the-malaya"
           }
         },
-        "16291666415b86e5bb-2": {
+        "16291666415b86e5bb-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vizio-caffe-e-cucina"
+            "collection": "foreign-return"
           }
         }
       },
       "block_order": [
-        "16291666415b86e5bb-1",
+        "88fca319-3ab6-4246-912b-64b9b6dd8389",
         "16291666415b86e5bb-0",
-        "16291666415b86e5bb-2"
+        "16291666415b86e5bb-1"
       ],
       "settings": {
         "title": "Featured Restaurants",
