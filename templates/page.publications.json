@@ -5,41 +5,6 @@
       "settings": {
       }
     },
-    "1635471396a267cea0": {
-      "type": "image-with-text",
-      "blocks": {
-        "1635471396a267cea0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Let Sydney Chefs Handle Your Meal Prep With This Awesome New Delivery Service"
-          }
-        },
-        "1635471396a267cea0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney\" target=\"_blank\" title=\"https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney\">Urban List<\/a> -  22 July 2021<\/p>"
-          }
-        },
-        "1635471396a267cea0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "text",
-            "button_link": "https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney"
-          }
-        }
-      },
-      "block_order": [
-        "1635471396a267cea0-0",
-        "1635471396a267cea0-1",
-        "1635471396a267cea0-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/CP_Fathers_Day_v4_1.jpg",
-        "height": "adapt",
-        "color_scheme": "background-2",
-        "layout": "image_first"
-      }
-    },
     "163547169016b5c770": {
       "type": "image-with-text",
       "blocks": {
@@ -54,21 +19,14 @@
           "settings": {
             "text": "<p><a href=\"https:\/\/www.ellaslist.com.au\/articles\/you-can-now-get-frozen-meals-delivered-from-top-sydney-restaurants\" target=\"_blank\" title=\"https:\/\/www.ellaslist.com.au\/articles\/you-can-now-get-frozen-meals-delivered-from-top-sydney-restaurants\"><em>ellaslist<\/em><\/a> - 14 September 2021<\/p>"
           }
-        },
-        "163547169016b5c770-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "163547169016b5c770-0",
-        "163547169016b5c770-1",
-        "163547169016b5c770-2"
+        "163547169016b5c770-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/AlbisTaverna_ChefPrep_080721_YMund-037_HR.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -80,29 +38,130 @@
         "163572539161c9f723-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "CHEFPREP’S THREE TOP TIPS FOR STARTING A SIDE HUSTLE"
           }
         },
         "163572539161c9f723-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "163572539161c9f723-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p><a href=\"https:\/\/www.westpac.com.au\/business-banking\/business-help\/starting-a-business\/tips-to-start-up-a-side-hustle\/\" target=\"_blank\" title=\"https:\/\/www.westpac.com.au\/business-banking\/business-help\/starting-a-business\/tips-to-start-up-a-side-hustle\/\"><em>Westpac<\/em><\/a><\/p>"
           }
         }
       },
       "block_order": [
         "163572539161c9f723-0",
-        "163572539161c9f723-1",
-        "163572539161c9f723-2"
+        "163572539161c9f723-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2021-04-15_at_11.16.15_PM.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1635471396a267cea0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635471396a267cea0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let Sydney Chefs Handle Your Meal Prep With This Awesome New Delivery Service"
+          }
+        },
+        "1635471396a267cea0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney\" target=\"_blank\" title=\"https:\/\/www.theurbanlist.com\/sydney\/a-list\/chefprep-meal-delivery-sydney\"><em>Urban List<\/em><\/a> -  22 July 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635471396a267cea0-0",
+        "1635471396a267cea0-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ChefPrep_DelhiODelhi_160321_YMund6704_HR.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "text_first"
+      }
+    },
+    "1635988362c69433bd": {
+      "type": "image-with-text",
+      "blocks": {
+        "1635988362c69433bd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE NEWEST READY-MADE MEAL DELIVERY SERVICE SYDNEY FOODIES NEED"
+          }
+        },
+        "1635988362c69433bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/www.hunterandbligh.com.au\/food\/the-newest-ready-made-meal-delivery-service-sydney-foodies-need\/\" target=\"_blank\" title=\"https:\/\/www.hunterandbligh.com.au\/food\/the-newest-ready-made-meal-delivery-service-sydney-foodies-need\/\"><em>Hunter and Bligh<\/em><\/a> - 19 July 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635988362c69433bd-0",
+        "1635988362c69433bd-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ChefPrep_STIX_060521_YMund-8747_HR_264ecc77-ff6e-4618-94e0-abbb8cb09abf.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163598925854000ba5": {
+      "type": "image-with-text",
+      "blocks": {
+        "163598925854000ba5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Frozen Meals From Great Sydney Diners Delivered to Your Door With New Meal-Delivery Service Chefprep"
+          }
+        },
+        "163598925854000ba5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/www.broadsheet.com.au\/sydney\/food-and-drink\/article\/frozen-meals-great-sydney-diners-delivered-door-new-meal-delivery-service-chefprep\" target=\"_blank\" title=\"https:\/\/www.broadsheet.com.au\/sydney\/food-and-drink\/article\/frozen-meals-great-sydney-diners-delivered-door-new-meal-delivery-service-chefprep\"><em>Broadsheet<\/em><\/a> - 15 July 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163598925854000ba5-0",
+        "163598925854000ba5-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bellevue_LeighGriffiths-30.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16359907399f3972e7": {
+      "type": "image-with-text",
+      "blocks": {
+        "16359907399f3972e7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ChefPrep is a New Online Marketplace Delivering Meals From Sydney’s Best Restaurants to Your Plate"
+          }
+        },
+        "16359907399f3972e7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/www.thrillist.com.au\/sydney\/chefprep-meal-delivery\" target=\"_blank\" title=\"https:\/\/www.thrillist.com.au\/sydney\/chefprep-meal-delivery\"><em>Thrillist<\/em><\/a> - 14 July 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16359907399f3972e7-0",
+        "16359907399f3972e7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ChefPrep_DelhiODelhi_290621_YMund-3919_HR.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -111,8 +170,11 @@
   },
   "order": [
     "main",
-    "1635471396a267cea0",
     "163547169016b5c770",
-    "163572539161c9f723"
+    "163572539161c9f723",
+    "1635471396a267cea0",
+    "1635988362c69433bd",
+    "163598925854000ba5",
+    "16359907399f3972e7"
   ]
 }
