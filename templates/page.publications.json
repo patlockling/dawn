@@ -29,7 +29,7 @@
         "image": "shopify:\/\/shop_images\/AlbisTaverna_ChefPrep_080721_YMund-037_HR.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "image_first"
       }
     },
     "163572539161c9f723": {
@@ -56,7 +56,7 @@
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2021-04-15_at_11.16.15_PM.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "1635471396a267cea0": {
@@ -83,7 +83,7 @@
         "image": "shopify:\/\/shop_images\/ChefPrep_DelhiODelhi_160321_YMund6704_HR.jpg",
         "height": "adapt",
         "color_scheme": "background-2",
-        "layout": "text_first"
+        "layout": "image_first"
       }
     },
     "1635988362c69433bd": {
@@ -110,7 +110,7 @@
         "image": "shopify:\/\/shop_images\/ChefPrep_STIX_060521_YMund-8747_HR_264ecc77-ff6e-4618-94e0-abbb8cb09abf.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "163598925854000ba5": {
@@ -137,7 +137,7 @@
         "image": "shopify:\/\/shop_images\/Bellevue_LeighGriffiths-30.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "image_first"
       }
     },
     "16359907399f3972e7": {
@@ -164,6 +164,33 @@
         "image": "shopify:\/\/shop_images\/ChefPrep_DelhiODelhi_290621_YMund-3919_HR.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16359912937f5ebe27": {
+      "type": "image-with-text",
+      "blocks": {
+        "16359912937f5ebe27-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sydney couple quit day jobs to “shake up the ready-made meal industry”"
+          }
+        },
+        "16359912937f5ebe27-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/www.kochiesbusinessbuilders.com.au\/ready-made-meals-sydney\/\" target=\"_blank\" title=\"https:\/\/www.kochiesbusinessbuilders.com.au\/ready-made-meals-sydney\/\"><em>Kochie's Business Builder<\/em><\/a> - 1 June 2021<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16359912937f5ebe27-0",
+        "16359912937f5ebe27-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ChefPrep_Portraits_2021_YMund-506_HR.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
         "layout": "image_first"
       }
     }
@@ -175,6 +202,7 @@
     "1635471396a267cea0",
     "1635988362c69433bd",
     "163598925854000ba5",
-    "16359907399f3972e7"
+    "16359907399f3972e7",
+    "16359912937f5ebe27"
   ]
 }
