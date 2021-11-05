@@ -109,7 +109,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ChefPrep_STIX_060521_YMund-8747_HR_264ecc77-ff6e-4618-94e0-abbb8cb09abf.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "layout": "text_first"
       }
     },
@@ -136,7 +136,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Bellevue_LeighGriffiths-30.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     },
@@ -163,7 +163,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ChefPrep_DelhiODelhi_290621_YMund-3919_HR.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "layout": "text_first"
       }
     },
@@ -190,7 +190,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/ChefPrep_Portraits_2021_YMund-506_HR.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     }
