@@ -28,7 +28,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/AlbisTaverna_ChefPrep_080721_YMund-037_HR.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     },
@@ -92,7 +92,7 @@
         "1635988362c69433bd-0": {
           "type": "heading",
           "settings": {
-            "heading": "THE NEWEST READY-MADE MEAL DELIVERY SERVICE SYDNEY FOODIES NEED"
+            "heading": "The Newest Ready-made Meal Delivery Service Sydney Foodies Need"
           }
         },
         "1635988362c69433bd-1": {
