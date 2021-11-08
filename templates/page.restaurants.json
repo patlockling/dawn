@@ -14,12 +14,6 @@
             "collection": "albis-taverna"
           }
         },
-        "9507299d-8c21-47c3-a2e2-3f5ae93402a3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bare-wholefoods"
-          }
-        },
         "16291861531b1381e6-1": {
           "type": "featured_collection",
           "settings": {
@@ -79,11 +73,16 @@
           "settings": {
             "collection": "i-maccheroni-by-rustic-kitchen"
           }
+        },
+        "dc97b157-f92f-4a43-9769-c27d0c659d00": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "little-lagos"
+          }
         }
       },
       "block_order": [
         "16291861531b1381e6-0",
-        "9507299d-8c21-47c3-a2e2-3f5ae93402a3",
         "16291861531b1381e6-1",
         "16291861531b1381e6-2",
         "54d21ab1-646e-4ada-a201-cf353ffcfad5",
@@ -93,7 +92,8 @@
         "2e63e53c-a929-4275-b64f-06e43a860e60",
         "57936ecc-6a45-448c-aa9c-30586389798e",
         "3f75275b-9111-476f-b450-e28ad058cf96",
-        "e21b1277-dd7e-4342-89a8-a9a97c14671a"
+        "e21b1277-dd7e-4342-89a8-a9a97c14671a",
+        "dc97b157-f92f-4a43-9769-c27d0c659d00"
       ],
       "settings": {
         "title": "",
@@ -107,12 +107,6 @@
     "16336742941a0074c2": {
       "type": "collection-list",
       "blocks": {
-        "c42f484a-01b6-4920-ab61-bd63095eeb61": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "little-lagos"
-          }
-        },
         "e9b29dbd-a55b-40a2-af5a-f738b23c7df3": {
           "type": "featured_collection",
           "settings": {
@@ -157,7 +151,6 @@
         }
       },
       "block_order": [
-        "c42f484a-01b6-4920-ab61-bd63095eeb61",
         "e9b29dbd-a55b-40a2-af5a-f738b23c7df3",
         "15515810-dabd-4566-acdc-576ed08dc406",
         "953959ba-fe5b-425f-8b3e-35b5bc260ce3",
