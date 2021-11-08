@@ -209,20 +209,11 @@
           "settings": {
             "text": "<p>We are always looking for amazing partners to work with. If you have an idea for a great collaboration or want to be part of our affiliate programme please get in touch at <a href=\"mailto:media.partnerships@chefprep.com.au\" target=\"_blank\">media.partnerships@chefprep.com.au<\/a><\/p>"
           }
-        },
-        "1636335972a399fe8e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "1636335972a399fe8e-0",
-        "1636335972a399fe8e-1",
-        "1636335972a399fe8e-2"
+        "1636335972a399fe8e-1"
       ],
       "settings": {
         "color_scheme": "background-1",
