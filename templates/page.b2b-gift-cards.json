@@ -7,24 +7,6 @@
     },
     "163668060006ad457c": {
       "type": "image-banner",
-      "blocks": {
-        "163668060006ad457c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": ""
-          }
-        },
-        "163668060006ad457c-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "163668060006ad457c-0",
-        "163668060006ad457c-1"
-      ],
       "settings": {
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
