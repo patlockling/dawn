@@ -8,6 +8,7 @@
     "163668060006ad457c": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/ChefPrep_Mordeo_090721_YMund-4026.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
