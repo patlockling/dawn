@@ -5,108 +5,53 @@
       "settings": {
       }
     },
-    "1629183964bf186493": {
-      "type": "collection-list",
+    "16366764815ac4687f": {
+      "type": "multicolumn",
       "blocks": {
-        "1629183964bf186493-0": {
-          "type": "featured_collection",
+        "16366764815ac4687f-0": {
+          "type": "column",
           "settings": {
-            "collection": "albis-taverna"
+            "image": "shopify:\/\/shop_images\/e5d13818-3dd4-44dd-8c08-ff1c7a23b8e2.jpg",
+            "title": "The legendary team at Butter are kicking off their launch on ChefPrep in style with a Golden Ticket competition! ",
+            "text": "<p>Rrunning until Nov 28, three Golden Tickets will be randomly placed into the delivery boxes of customers who have ordered a Butter product from ChefPrep (one ticket per week). <\/p><p>Each Golden Ticket has a value of<strong> $100 <\/strong>and can be redeemed at any of the three Butter Sydney stores across Butter's range of products. <\/p>"
           }
         },
-        "1629183964bf186493-1": {
-          "type": "featured_collection",
+        "16366764815ac4687f-1": {
+          "type": "column",
+          "disabled": true,
           "settings": {
-            "collection": "bellevue-cottage-by-antoine"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "1629183964bf186493-2": {
-          "type": "featured_collection",
+        "16366764815ac4687f-2": {
+          "type": "column",
+          "disabled": true,
           "settings": {
-            "collection": "bondi-hardware"
-          }
-        },
-        "03ec4709-7a0e-4c7d-986f-bf149cb81a88": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "delhi-o-delhi"
-          }
-        },
-        "cbdd0b44-3864-4a72-a15f-724592f680fd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "devine-food-and-wine"
-          }
-        },
-        "79675537-0867-4026-b19b-1bb8838d4283": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "foodie-del-mar"
-          }
-        },
-        "3be49692-bfab-43e4-b2e0-b3f036c9e47a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "1f358f34-6451-451b-857c-1c0c3331c1f1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "e2864ddd-aa57-44ef-b1c0-a09c7fbe6f56": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "804247e3-6935-445b-816f-44109929e882": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "05a5062a-7392-4995-b216-617d2562f3eb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "4f3c26ff-6507-44f8-a368-be0ddd81c02f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
-        "1629183964bf186493-0",
-        "1629183964bf186493-1",
-        "1629183964bf186493-2",
-        "03ec4709-7a0e-4c7d-986f-bf149cb81a88",
-        "cbdd0b44-3864-4a72-a15f-724592f680fd",
-        "79675537-0867-4026-b19b-1bb8838d4283",
-        "3be49692-bfab-43e4-b2e0-b3f036c9e47a",
-        "1f358f34-6451-451b-857c-1c0c3331c1f1",
-        "e2864ddd-aa57-44ef-b1c0-a09c7fbe6f56",
-        "804247e3-6935-445b-816f-44109929e882",
-        "05a5062a-7392-4995-b216-617d2562f3eb",
-        "4f3c26ff-6507-44f8-a368-be0ddd81c02f"
+        "16366764815ac4687f-0",
+        "16366764815ac4687f-1",
+        "16366764815ac4687f-2"
       ],
       "settings": {
         "title": "",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "I want to WIN",
+        "button_link": "shopify:\/\/collections\/butter",
+        "swipe_on_mobile": false
       }
     }
   },
   "order": [
     "main",
-    "1629183964bf186493"
+    "16366764815ac4687f"
   ]
 }
