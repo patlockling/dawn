@@ -343,6 +343,41 @@
         "color_scheme": "background-1",
         "full_width": true
       }
+    },
+    "1637039091ea957716": {
+      "type": "image-with-text",
+      "blocks": {
+        "16370390910527a2ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your chance to win a Butter Golden Ticket!"
+          }
+        },
+        "16370390910527a2ea-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16370390910527a2ea-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "I want to WIN!",
+            "button_link": "shopify:\/\/pages\/butter-golden-ticket"
+          }
+        }
+      },
+      "block_order": [
+        "16370390910527a2ea-0",
+        "16370390910527a2ea-1",
+        "16370390910527a2ea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/e5d13818-3dd4-44dd-8c08-ff1c7a23b8e2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -354,6 +389,7 @@
     "1629167547f91b423f",
     "162885260804a4151a",
     "16288526342842f579",
-    "16309954415d71656e"
+    "16309954415d71656e",
+    "1637039091ea957716"
   ]
 }
