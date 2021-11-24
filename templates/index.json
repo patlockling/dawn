@@ -6,13 +6,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Great food without the fuss, courtesy of your Favourite Restaurants."
+            "heading": "30% OFF EVERYTHING BLACK FRIDAY SALE"
           }
         },
         "b7a6dd39-af8e-48e8-9a84-28a7e8e629ae": {
           "type": "text",
           "settings": {
-            "text": "No cooking required. Simply heat, eat and repeat"
+            "text": "Use code 'BLACKFRIDAY' at checkout. Offer valid until 29\/11\/21."
           }
         },
         "button": {
@@ -33,7 +33,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ChefPrep_BondiHardware_300721-14054.jpg",
+        "image": "shopify:\/\/shop_images\/Group_1.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
