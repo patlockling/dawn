@@ -52,10 +52,10 @@
     return new Date(date.getTime() - diff);
   }
 
-  window.onload = () => {
+  /*window.onload = () => {
     if (!window.jQuery) {
       return;
-    }
+    }*/
 
     const $ = window.jQuery;
 
@@ -151,16 +151,16 @@
 
     $(() =>
       fetch('https://worldtimeapi.org/api/timezone/Australia/Sydney')
-    .then(response => {
-      if (!response.ok) {
-        return configureDatePicker(getFallbackToday());
-      }
+    	.then(response => {
+      	  if (!response.ok) {
+        	return configureDatePicker(getFallbackToday());
+      	  }
 
-      return response.json()
-      .then(json => configureDatePicker(new Date(json.datetime)))
-    })
+          return response.json()
+            .then(json => configureDatePicker(new Date(json.datetime)))
+        })
     );
-  }
+  /*}*/
 </script>
 
 {% style %}
