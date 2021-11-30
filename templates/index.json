@@ -101,10 +101,10 @@
             "collection": "butter"
           }
         },
-        "88fca319-3ab6-4246-912b-64b9b6dd8389": {
+        "faa91fe9-3246-422e-90ae-0492519ac71f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "drumplings"
+            "collection": "mumma-julians-impossible™-beef-lasagne"
           }
         },
         "16291666415b86e5bb-1": {
@@ -116,7 +116,7 @@
       },
       "block_order": [
         "16291666415b86e5bb-0",
-        "88fca319-3ab6-4246-912b-64b9b6dd8389",
+        "faa91fe9-3246-422e-90ae-0492519ac71f",
         "16291666415b86e5bb-1"
       ],
       "settings": {
