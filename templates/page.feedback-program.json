@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "163668060006ad457c": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/9.png",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1629205306ef91ebc3": {
+      "type": "rich-text",
+      "blocks": {
+        "1629205306ef91ebc3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wanting to treat your team?",
+            "heading_size": "h2"
+          }
+        },
+        "1629205306ef91ebc3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>ChefPrep is here to help you reward your teams. We offer a range of options that are perfect for Christmas gifts, employee birthdays, or onboarding, or as a way to entice your team back into the office (think of all those delicious meals stacked up in the fridge)!<\/p><p><\/p><p>Want to give your employees choice? We also offer <strong>corporate gift cards <\/strong>and <strong>personalised discount codes<\/strong> that you can send to your employees. <\/p><p><span style=\"text-decoration:underline\">To find out more, please enter your details on this form, and we will be in touch<\/span><\/p>"
+          }
+        },
+        "d6892d10-d80c-4a5c-b563-0b6fac6a1a39": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register your interest",
+            "button_link": "https:\/\/share.hsforms.com\/1Ju8_VHjpSFmJA_eA7JWjwgc35u9",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1629205306ef91ebc3-0",
+        "1629205306ef91ebc3-1",
+        "d6892d10-d80c-4a5c-b563-0b6fac6a1a39"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1634633219d17d85f3": {
+      "type": "rich-text",
+      "blocks": {
+        "1634633219d17d85f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wanting Christmas gifts for your clients or suppliers?",
+            "heading_size": "h2"
+          }
+        },
+        "1634633219d17d85f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why not consider including a <strong>ChefPrep gift voucher<\/strong>? Say thanks by treating them to dinner on you, in the comfort of their own home. <\/p><p><span style=\"text-decoration:underline\">To find out more, please enter your details on this form, and we will be in touch<\/span><\/p>"
+          }
+        },
+        "00a81739-3374-47b9-8071-7d892a10a58c": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register your interest",
+            "button_link": "https:\/\/share.hsforms.com\/1Ju8_VHjpSFmJA_eA7JWjwgc35u9",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1634633219d17d85f3-0",
+        "1634633219d17d85f3-1",
+        "00a81739-3374-47b9-8071-7d892a10a58c"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1636611154afc98c80": {
+      "type": "rich-text",
+      "blocks": {
+        "1636611154afc98c80-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why ChefPrep?",
+            "heading_size": "h2"
+          }
+        },
+        "1636611154afc98c80-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ChefPrep was born out of our frustration with food delivery services. We were not impressed with the taste, quality or convenience of meal kits or “finish at home” delivery services or mass manufactured ready-made meals. We are committed to giving customers access to premium restaurant made meals in the comfort of their own home or office - it’s the ChefPrep difference! ❤️<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636611154afc98c80-0",
+        "1636611154afc98c80-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "163668060006ad457c",
+    "1629205306ef91ebc3",
+    "1634633219d17d85f3",
+    "1636611154afc98c80"
+  ]
+}
