@@ -52,115 +52,109 @@
     return new Date(date.getTime() - diff);
   }
 
-  /*window.onload = () => {
-    if (!window.jQuery) {
-      return;
-    }*/
+  const $ = window.jQuery;
 
-    const $ = window.jQuery;
-
-    const configureDatePicker = (today) => {
-      $("#date").datepicker({
-        minDate: 1, 
-        maxDate: '+2W',
-        dateFormat: 'dd/mm/yy',
-        beforeShowDay: (date) => {
-          if (isHoliday(date)) {
-            return [false, ''];
-          }
-
-          if (!DELIVERY_DAYS.some(deliveryDay => date.getDay() === deliveryDay)) {
-            return [false, ''];
-          }
-
-          return [getISODateString(date) >= getISODateString(getUpcomingDeliveryDate()), ''];
-        }
-      });
-
-      const getISODateString = (date) => new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().substring(0, 10);
-
-      const getNumberOfDaysToDelivery = () => {
-        const hour = today.getHours();
-
-        const deliveryDayRule = deliveryDayRuleMap[today.getDay()];
-        const cutOffTimes = Object.keys(deliveryDayRule);
-
-        let numberOfDaysToDelivery;
-        for (let cutOffTime of cutOffTimes) {
-          if (hour < cutOffTime) {
-            numberOfDaysToDelivery = deliveryDayRule[cutOffTime];
-            break;
-          }
+  const configureDatePicker = (today) => {
+    $("#date").datepicker({
+      minDate: 1, 
+      maxDate: '+2W',
+      dateFormat: 'dd/mm/yy',
+      beforeShowDay: (date) => {
+        if (isHoliday(date)) {
+          return [false, ''];
         }
 
-        return numberOfDaysToDelivery;
-      };
-
-      const getUpcomingDeliveryDate = (daysToDelivery = getNumberOfDaysToDelivery()) => {
-        const upcomingDeliveryDate = new Date(today.getTime());
-        upcomingDeliveryDate.setDate(today.getDate() + daysToDelivery);
-        return upcomingDeliveryDate;
-      };
-
-      const isHoliday = (date) => HOLIDAYS.some(holiday => getISODateString(date) === holiday);
-
-      const setDateIfNotHoliday = (daysToDelivery) => {
-        const upcomingDeliveryDate = getUpcomingDeliveryDate(daysToDelivery);
-        if (!isHoliday(upcomingDeliveryDate)) {
-          $('#date').datepicker('setDate', upcomingDeliveryDate);
-          return true;
+        if (!DELIVERY_DAYS.some(deliveryDay => date.getDay() === deliveryDay)) {
+          return [false, ''];
         }
 
-        return false;
+        return [getISODateString(date) >= getISODateString(getUpcomingDeliveryDate()), ''];
       }
+    });
 
-      if (setDateIfNotHoliday()) {
-        return;
-      }
+    const getISODateString = (date) => new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().substring(0, 10);
 
-      const sortedDeliveryDayRuleMap = [...deliveryDayRuleMap];
-      const deliveryDaysBeforeToday = sortedDeliveryDayRuleMap.splice(0, today.getDay());
-      sortedDeliveryDayRuleMap.push(...deliveryDaysBeforeToday);
-      sortedDeliveryDayRuleMap.push(...sortedDeliveryDayRuleMap);
+    const getNumberOfDaysToDelivery = () => {
+      const hour = today.getHours();
 
-      const validDeliveryDaysForToday = Object.entries(sortedDeliveryDayRuleMap[0])
-      .filter(rule => rule[0] > today.getHours())
-      .reduce((acc, currValue) => {
-        acc[currValue[0]] = currValue[1];
-        return acc;
-      }, {});
+      const deliveryDayRule = deliveryDayRuleMap[today.getDay()];
+      const cutOffTimes = Object.keys(deliveryDayRule);
 
-      sortedDeliveryDayRuleMap[0] = validDeliveryDaysForToday;
-
-      for (let i = 0; i < sortedDeliveryDayRuleMap.length; i++) {
-        const rule = Object.values(sortedDeliveryDayRuleMap[i]);
-        let hasFoundDeliveryDate = false;
-
-        for (let daysToDelivery of rule) {
-          if (setDateIfNotHoliday(i + daysToDelivery)) {
-            hasFoundDeliveryDate = true;
-            break;
-          }
-        }
-
-        if (hasFoundDeliveryDate) {
+      let numberOfDaysToDelivery;
+      for (let cutOffTime of cutOffTimes) {
+        if (hour < cutOffTime) {
+          numberOfDaysToDelivery = deliveryDayRule[cutOffTime];
           break;
         }
       }
+
+      return numberOfDaysToDelivery;
     };
 
-    $(() =>
-      fetch('https://worldtimeapi.org/api/timezone/Australia/Sydney')
-    	.then(response => {
-      	  if (!response.ok) {
-        	return configureDatePicker(getFallbackToday());
-      	  }
+    const getUpcomingDeliveryDate = (daysToDelivery = getNumberOfDaysToDelivery()) => {
+      const upcomingDeliveryDate = new Date(today.getTime());
+      upcomingDeliveryDate.setDate(today.getDate() + daysToDelivery);
+      return upcomingDeliveryDate;
+    };
 
-          return response.json()
-            .then(json => configureDatePicker(new Date(json.datetime)))
-        })
-    );
-  /*}*/
+    const isHoliday = (date) => HOLIDAYS.some(holiday => getISODateString(date) === holiday);
+
+    const setDateIfNotHoliday = (daysToDelivery) => {
+      const upcomingDeliveryDate = getUpcomingDeliveryDate(daysToDelivery);
+      if (!isHoliday(upcomingDeliveryDate)) {
+        $('#date').datepicker('setDate', upcomingDeliveryDate);
+        return true;
+      }
+
+      return false;
+    }
+
+    if (setDateIfNotHoliday()) {
+      return;
+    }
+
+    const sortedDeliveryDayRuleMap = [...deliveryDayRuleMap];
+    const deliveryDaysBeforeToday = sortedDeliveryDayRuleMap.splice(0, today.getDay());
+    sortedDeliveryDayRuleMap.push(...deliveryDaysBeforeToday);
+    sortedDeliveryDayRuleMap.push(...sortedDeliveryDayRuleMap);
+
+    const validDeliveryDaysForToday = Object.entries(sortedDeliveryDayRuleMap[0])
+    .filter(rule => rule[0] > today.getHours())
+    .reduce((acc, currValue) => {
+      acc[currValue[0]] = currValue[1];
+      return acc;
+    }, {});
+
+    sortedDeliveryDayRuleMap[0] = validDeliveryDaysForToday;
+
+    for (let i = 0; i < sortedDeliveryDayRuleMap.length; i++) {
+      const rule = Object.values(sortedDeliveryDayRuleMap[i]);
+      let hasFoundDeliveryDate = false;
+
+      for (let daysToDelivery of rule) {
+        if (setDateIfNotHoliday(i + daysToDelivery)) {
+          hasFoundDeliveryDate = true;
+          break;
+        }
+      }
+
+      if (hasFoundDeliveryDate) {
+        break;
+      }
+    }
+  };
+
+  $(() =>
+    fetch('https://worldtimeapi.org/api/timezone/Australia/Sydney')
+  .then(response => {
+    if (!response.ok) {
+      return configureDatePicker(getFallbackToday());
+    }
+
+    return response.json()
+      .then(json => configureDatePicker(new Date(json.datetime)))
+  	})
+  );
 </script>
 
 {% style %}
