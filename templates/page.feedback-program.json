@@ -21,14 +21,14 @@
         "1629205306ef91ebc3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Wanting to treat your team?",
+            "heading": "",
             "heading_size": "h2"
           }
         },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p>ChefPrep is here to help you reward your teams. We offer a range of options that are perfect for Christmas gifts, employee birthdays, or onboarding, or as a way to entice your team back into the office (think of all those delicious meals stacked up in the fridge)!<\/p><p><\/p><p>Want to give your employees choice? We also offer <strong>corporate gift cards <\/strong>and <strong>personalised discount codes<\/strong> that you can send to your employees. <\/p><p><span style=\"text-decoration:underline\">To find out more, please enter your details on this form, and we will be in touch<\/span><\/p>"
+            "text": "<p><\/p><p>At ChefPrep, one of our constant goals is to focus on the needs of our customers. With this in mind, we’re excited to continue with our Feedback Program.<\/p><p>This program encompasses the entire customer experience at ChefPrep. From using the website to receiving your box or dealing with our Customer Support Team - we want to hear about it all! We know your time is precious, which is why we're happy to reward you for your feedback. <\/p><p>For every 30-minute interview, you'll receive either a $50 ChefPrep gift card.<\/p><p>Every month, four people who have completed a survey will be chosen at random to win up to $250 worth of prizes. If you complete more than one survey per month, you'll be entered into the raffle more than once.<\/p><p><span style=\"text-decoration:underline\">To find out more, please enter your details on this form, and we will be in touch<\/span><\/p>"
           }
         },
         "d6892d10-d80c-4a5c-b563-0b6fac6a1a39": {
@@ -44,41 +44,6 @@
         "1629205306ef91ebc3-0",
         "1629205306ef91ebc3-1",
         "d6892d10-d80c-4a5c-b563-0b6fac6a1a39"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "1634633219d17d85f3": {
-      "type": "rich-text",
-      "blocks": {
-        "1634633219d17d85f3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wanting Christmas gifts for your clients or suppliers?",
-            "heading_size": "h2"
-          }
-        },
-        "1634633219d17d85f3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Why not consider including a <strong>ChefPrep gift voucher<\/strong>? Say thanks by treating them to dinner on you, in the comfort of their own home. <\/p><p><span style=\"text-decoration:underline\">To find out more, please enter your details on this form, and we will be in touch<\/span><\/p>"
-          }
-        },
-        "00a81739-3374-47b9-8071-7d892a10a58c": {
-          "type": "button",
-          "settings": {
-            "button_label": "Register your interest",
-            "button_link": "https:\/\/share.hsforms.com\/1Ju8_VHjpSFmJA_eA7JWjwgc35u9",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1634633219d17d85f3-0",
-        "1634633219d17d85f3-1",
-        "00a81739-3374-47b9-8071-7d892a10a58c"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -116,7 +81,6 @@
     "main",
     "163668060006ad457c",
     "1629205306ef91ebc3",
-    "1634633219d17d85f3",
     "1636611154afc98c80"
   ]
 }
