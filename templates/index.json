@@ -101,10 +101,10 @@
             "collection": "butter"
           }
         },
-        "faa91fe9-3246-422e-90ae-0492519ac71f": {
+        "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mumma-julians-impossible™-beef-lasagne"
+            "collection": "vizio-caffe-e-cucina"
           }
         },
         "16291666415b86e5bb-1": {
@@ -116,7 +116,7 @@
       },
       "block_order": [
         "16291666415b86e5bb-0",
-        "faa91fe9-3246-422e-90ae-0492519ac71f",
+        "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7",
         "16291666415b86e5bb-1"
       ],
       "settings": {
