@@ -8,6 +8,13 @@
     "1629205306ef91ebc3": {
       "type": "rich-text",
       "blocks": {
+        "b9c3b997-42a8-47c7-95e5-e8078c9f6ecd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your opinion is valuable.",
+            "heading_size": "h2"
+          }
+        },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
@@ -24,6 +31,7 @@
         }
       },
       "block_order": [
+        "b9c3b997-42a8-47c7-95e5-e8078c9f6ecd",
         "1629205306ef91ebc3-1",
         "d6892d10-d80c-4a5c-b563-0b6fac6a1a39"
       ],
