@@ -1,39 +1,134 @@
 {
   "sections": {
+    "16387646431256bfb9": {
+      "type": "image-banner",
+      "blocks": {
+        "1638764643551a89b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our Feedback Programme"
+          }
+        },
+        "1638764643551a89b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "At ChefPrep, one of our constant goals is to focus on the needs of our customers. With this in mind, we’re excited to launch our programme"
+          }
+        },
+        "1638764643551a89b4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1638764643551a89b4-0",
+        "1638764643551a89b4-1",
+        "1638764643551a89b4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/john-schnobrich-2FPjlAyMQTA-unsplash_98c07025-4a60-4a5d-abe9-0caaa25c639f.jpg",
+        "desktop_text_box_position": "center",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
     "1629205306ef91ebc3": {
       "type": "rich-text",
       "blocks": {
-        "b9c3b997-42a8-47c7-95e5-e8078c9f6ecd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Your opinion is valuable.",
-            "heading_size": "h2"
-          }
-        },
         "1629205306ef91ebc3-1": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p>At ChefPrep, one of our constant goals is to focus on the needs of our customers. With this in mind, we’re excited to continue with our <strong>Feedback Program<\/strong>.<\/p><p>This program encompasses the entire customer experience at ChefPrep. From using the website to receiving your box or dealing with our Customer Support Team - we want to hear about it all! We know your time is precious, which is why we're happy to reward you for your feedback. <\/p><p>For <strong>every 30-minute interview<\/strong>, you'll receive <strong>a $50 ChefPrep gift card<\/strong>.<\/p><p><strong>Every month, four people who have completed a survey will be chosen at random to win up to $200 worth of prizes.<\/strong> If you complete more than one survey per month, you'll be entered into the raffle more than once.<\/p><p>We can't wait to hear from you! <\/p><p><span style=\"text-decoration:underline\">To find out more, please enter your details on this form, and we will be in touch<\/span><\/p>"
+            "text": "<p>This program encompasses the entire customer experience at ChefPrep. From using the website to receiving your box or dealing with our Customer Support Team - we want to hear about it all! We know your time is precious, which is why we're happy to reward you for your feedback.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629205306ef91ebc3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16387648854838d654": {
+      "type": "multicolumn",
+      "blocks": {
+        "163876488556cc21f2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/undraw_group_hangout_5gmq.png",
+            "title": "Online interviews",
+            "text": "<p>We will contact you and arrange to have a <strong>30-minute online videocall <\/strong>at a time of your convenience. After our conversation, as a thank you, you'll receive a <strong>$50 ChefPrep gift card<\/strong>.<\/p>"
           }
         },
-        "d6892d10-d80c-4a5c-b563-0b6fac6a1a39": {
+        "163876488556cc21f2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/undraw_Forms_re_pkrt.png",
+            "title": "Customer Surveys",
+            "text": "<p>We'll send out regular surveys to know more about what you like and value, which you can fill in at your own time. <strong>Every month, four people who have completed a survey will be chosen at random to win up to $200 worth of prizes.<\/strong><\/p><p>If you complete more than one survey per month, you'll be entered into the raffle more than once.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163876488556cc21f2-0",
+        "163876488556cc21f2-1"
+      ],
+      "settings": {
+        "title": "How can I help?",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1638765557edb06a8d": {
+      "type": "rich-text",
+      "blocks": {
+        "16387655578e37214c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "16387655578e37214c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We can't wait to hear from you!<\/p><p>To find out more, please enter your details on this form, and we will be in touch<\/p>"
+          }
+        },
+        "16387655578e37214c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Register your interest",
+            "button_label": "Join the programme",
             "button_link": "https:\/\/cqaqgwxxul7.typeform.com\/to\/LPoxtHTS",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "b9c3b997-42a8-47c7-95e5-e8078c9f6ecd",
-        "1629205306ef91ebc3-1",
-        "d6892d10-d80c-4a5c-b563-0b6fac6a1a39"
+        "16387655578e37214c-0",
+        "16387655578e37214c-1",
+        "16387655578e37214c-2"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -69,8 +164,11 @@
     }
   },
   "order": [
+    "16387646431256bfb9",
     "main",
     "1629205306ef91ebc3",
+    "16387648854838d654",
+    "1638765557edb06a8d",
     "1638750641253ee578"
   ]
 }
