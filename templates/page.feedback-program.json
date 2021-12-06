@@ -5,16 +5,6 @@
       "settings": {
       }
     },
-    "163668060006ad457c": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9.png",
-        "desktop_text_box_position": "center",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
-      }
-    },
     "1629205306ef91ebc3": {
       "type": "rich-text",
       "blocks": {
@@ -50,17 +40,16 @@
         "full_width": true
       }
     },
-    "1636611154afc98c80": {
-      "type": "rich-text",
+    "1638750641253ee578": {
+      "type": "image-with-text",
       "blocks": {
-        "1636611154afc98c80-0": {
+        "d8e26fcd-03c4-4165-854d-b1d5a44ea2c1": {
           "type": "heading",
           "settings": {
-            "heading": "Why ChefPrep?",
-            "heading_size": "h2"
+            "heading": "Why ChefPrep?"
           }
         },
-        "1636611154afc98c80-1": {
+        "da9b37dd-f492-4cad-a37e-d6d9d309c574": {
           "type": "text",
           "settings": {
             "text": "<p>ChefPrep was born out of our frustration with food delivery services. We were not impressed with the taste, quality or convenience of meal kits or “finish at home” delivery services or mass manufactured ready-made meals. We are committed to giving customers access to premium restaurant made meals in the comfort of their own home or office - it’s the ChefPrep difference! ❤️<\/p>"
@@ -68,19 +57,20 @@
         }
       },
       "block_order": [
-        "1636611154afc98c80-0",
-        "1636611154afc98c80-1"
+        "d8e26fcd-03c4-4165-854d-b1d5a44ea2c1",
+        "da9b37dd-f492-4cad-a37e-d6d9d309c574"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/john-schnobrich-2FPjlAyMQTA-unsplash_1.jpg",
+        "height": "adapt",
         "color_scheme": "background-1",
-        "full_width": true
+        "layout": "image_first"
       }
     }
   },
   "order": [
     "main",
-    "163668060006ad457c",
     "1629205306ef91ebc3",
-    "1636611154afc98c80"
+    "1638750641253ee578"
   ]
 }
