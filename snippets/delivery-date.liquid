@@ -13,7 +13,9 @@
 
 <script>
   const DELIVERY_DAYS = [1, 3, 5];
-  const HOLIDAYS = ['2021-11-01'];
+  const HOLIDAYS = ['2021-12-24', '2021-12-27', '2021-12-29', '2022-01-03'];
+  const EXTRA_DELIVERY_DATES = ['2021-12-21'];
+  const DEFAULT_CUTOFF_TIME = 17;
 
   const deliveryDayRuleMap = [
     {
@@ -23,18 +25,18 @@
       24: 2,  // Monday -> Wednesday
     },
     {
-      17: 1,  // Tuesday before 5pm -> Wednesday
+      [DEFAULT_CUTOFF_TIME]: 1,  // Tuesday before 5pm -> Wednesday
       24: 3,  // Tuesday after 5pm -> Friday
     },
     {
       24: 2,  // Wednesday -> Friday
     },
     {
-      17: 1,  // Thursday before 5pm -> Friday
+      [DEFAULT_CUTOFF_TIME]: 1,  // Thursday before 5pm -> Friday
       24: 4,  // Thursday after 5pm -> Monday
     },
     {
-      17: 3,  // Friday before 5pm -> Monday
+      [DEFAULT_CUTOFF_TIME]: 3,  // Friday before 5pm -> Monday
       24: 5,  // Friday after 5pm -> Wednesday
     },
     {
@@ -57,11 +59,15 @@
   const configureDatePicker = (today) => {
     $("#date").datepicker({
       minDate: 1, 
-      maxDate: '+2W',
+      maxDate: '+4W',
       dateFormat: 'dd/mm/yy',
       beforeShowDay: (date) => {
         if (isHoliday(date)) {
           return [false, ''];
+        }
+
+        if (isExtraDeliveryDate(date)) {
+          return [true, ''];
         }
 
         if (!DELIVERY_DAYS.some(deliveryDay => date.getDay() === deliveryDay)) {
@@ -71,6 +77,13 @@
         return [getISODateString(date) >= getISODateString(getUpcomingDeliveryDate()), ''];
       }
     });
+
+    const getDateDiffInDays = (date1, date2) => {
+      const utc1 = Date.UTC(date1.getFullYear(), date1.getMonth(), date1.getDate());
+      const utc2 = Date.UTC(date2.getFullYear(), date2.getMonth(), date2.getDate());
+
+      return Math.floor((utc2 - utc1) / (1000 * 60 * 60 * 24));
+    };
 
     const getISODateString = (date) => new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().substring(0, 10);
 
@@ -94,10 +107,26 @@
     const getUpcomingDeliveryDate = (daysToDelivery = getNumberOfDaysToDelivery()) => {
       const upcomingDeliveryDate = new Date(today.getTime());
       upcomingDeliveryDate.setDate(today.getDate() + daysToDelivery);
+
+      const diffInDays = getDateDiffInDays(today, upcomingDeliveryDate);
+      if (diffInDays > 1) {
+        for (let i = 1; i < diffInDays; i++) {
+          const possibleExtraDeliveryDate = new Date(today.getTime());
+          possibleExtraDeliveryDate.setDate(today.getDate() + i);
+
+          const isPastCutoffTime = (i === 1) && (today.getHours() >= DEFAULT_CUTOFF_TIME);
+          if (isExtraDeliveryDate(possibleExtraDeliveryDate) && !isPastCutoffTime) {
+            return possibleExtraDeliveryDate;
+          }
+        }
+      }
+
       return upcomingDeliveryDate;
     };
 
     const isHoliday = (date) => HOLIDAYS.some(holiday => getISODateString(date) === holiday);
+
+    const isExtraDeliveryDate = (date) => EXTRA_DELIVERY_DATES.some(extraDeliveryDate => getISODateString(date) === extraDeliveryDate);
 
     const setDateIfNotHoliday = (daysToDelivery) => {
       const upcomingDeliveryDate = getUpcomingDeliveryDate(daysToDelivery);
@@ -146,14 +175,14 @@
 
   $(() =>
     fetch('https://worldtimeapi.org/api/timezone/Australia/Sydney')
-  .then(response => {
-    if (!response.ok) {
-      return configureDatePicker(getFallbackToday());
-    }
+  	  .then(response => {
+        if (!response.ok) {
+      	  return configureDatePicker(getFallbackToday());
+    	}
 
-    return response.json()
-      .then(json => configureDatePicker(new Date(json.datetime)))
-  	})
+    	return response.json()
+    	  .then(json => configureDatePicker(new Date(json.datetime)))
+  	  })
   );
 </script>
 
