@@ -96,7 +96,7 @@
               <div class="product__description rte">
                 {{ product.description }}
               </div>
-        	  <div style="display: none">{{ product.metafields.servingSize }}</div>
+        	  <div style="display: none">{{ product.metafields.meal.serving_size }}</div>
             {%- endif -%}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
