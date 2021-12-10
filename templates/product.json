@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "93638c2b-f278-4266-8039-6d14455f3bda": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.meal.serving_size.value }}",
+            "text_style": "subtitle"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -87,6 +94,7 @@
       "block_order": [
         "vendor",
         "title",
+        "93638c2b-f278-4266-8039-6d14455f3bda",
         "price",
         "variant_picker",
         "quantity_selector",
