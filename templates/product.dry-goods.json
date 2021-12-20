@@ -58,7 +58,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dietary Information",
-            "content": "<p><strong>Ingredients:<\/strong><\/p><p>{{ product.metafields.meal.ingredients | metafield_tag }}<\/p><p>{{ product.metafields.meal.contains.value }}<\/p><p><strong>General Warning:<\/strong><br\/>Meals are prepared in a kitchen that contains fish, milk, sesame, crustaceans, soy, nuts, tree nuts, gluten, lupin and sulphites. Although best practises are used in preparing the meal, the meal may contain traces of these allergens.<\/p><p>While reasonable efforts have been made to ensure the accuracy of this information at the time of publication, there is no guarantee that this information is accurate and complete and the information above is subject to change without prior notice.<\/p>",
+            "content": "<p><strong>Ingredients:<\/strong><\/p><p>{{ product.metafields.meal.ingredients | metafield_tag }}<\/p><p>{{ product.metafields.meal.contains.value }}<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -68,15 +68,6 @@
           "settings": {
             "heading": "Storage",
             "content": "<p>{{ product.metafields.meal.storage | metafield_tag }}<\/p>",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "361a13b8-a3c6-41d2-857c-c9fc3b788125": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Preparation",
-            "content": "<p>{{ product.metafields.meal.instructions_1 | metafield_tag }}<\/p><p>{{ product.metafields.meal.instructions_2 | metafield_tag }}<\/p><p>Please check the QR Code on the meal for heating and plating instructions.<\/p>",
             "page": "",
             "icon": "none"
           }
@@ -103,7 +94,6 @@
         "share",
         "017e3f54-7eb8-4158-b2f5-1d99a9f9900f",
         "d1de6a22-5efa-4cfc-98e1-288b3724d124",
-        "361a13b8-a3c6-41d2-857c-c9fc3b788125",
         "2b833e11-a099-40a2-b546-8a7b19c4dc68"
       ],
       "settings": {
