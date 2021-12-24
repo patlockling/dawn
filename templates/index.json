@@ -145,23 +145,23 @@
             "collection": "butter"
           }
         },
+        "41a44903-970d-40f4-851d-4bc6e54c5f43": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "i-love-lupe"
+          }
+        },
         "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7": {
           "type": "featured_collection",
           "settings": {
             "collection": "vizio-caffe-e-cucina"
           }
-        },
-        "16291666415b86e5bb-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "foreign-return"
-          }
         }
       },
       "block_order": [
         "16291666415b86e5bb-0",
-        "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7",
-        "16291666415b86e5bb-1"
+        "41a44903-970d-40f4-851d-4bc6e54c5f43",
+        "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7"
       ],
       "settings": {
         "title": "New to ChefPrep",
