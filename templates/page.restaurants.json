@@ -26,6 +26,12 @@
             "collection": "bondi-hardware"
           }
         },
+        "fc56b358-99ad-4570-a55a-4bfd4bc8ae82": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bourke-street-bakery"
+          }
+        },
         "54d21ab1-646e-4ada-a201-cf353ffcfad5": {
           "type": "featured_collection",
           "settings": {
@@ -73,18 +79,13 @@
           "settings": {
             "collection": "i-love-lupe"
           }
-        },
-        "e21b1277-dd7e-4342-89a8-a9a97c14671a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "i-maccheroni-by-rustic-kitchen"
-          }
         }
       },
       "block_order": [
         "16291861531b1381e6-0",
         "16291861531b1381e6-1",
         "16291861531b1381e6-2",
+        "fc56b358-99ad-4570-a55a-4bfd4bc8ae82",
         "54d21ab1-646e-4ada-a201-cf353ffcfad5",
         "d00d5d5e-9ecc-4b9b-b68a-c7ea84b49f05",
         "c63eb042-4f4f-4272-8255-dac5a09c6104",
@@ -92,8 +93,7 @@
         "2e63e53c-a929-4275-b64f-06e43a860e60",
         "57936ecc-6a45-448c-aa9c-30586389798e",
         "3f75275b-9111-476f-b450-e28ad058cf96",
-        "641dfd94-2e28-488c-aaf2-81bb4880c4e6",
-        "e21b1277-dd7e-4342-89a8-a9a97c14671a"
+        "641dfd94-2e28-488c-aaf2-81bb4880c4e6"
       ],
       "settings": {
         "title": "",
@@ -107,6 +107,12 @@
     "16336742941a0074c2": {
       "type": "collection-list",
       "blocks": {
+        "4970325f-d35a-4e1a-b7b2-20a1394c62f3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "i-maccheroni-by-rustic-kitchen"
+          }
+        },
         "b432a78f-5c64-491e-b944-9c34d0cee9ca": {
           "type": "featured_collection",
           "settings": {
@@ -157,6 +163,7 @@
         }
       },
       "block_order": [
+        "4970325f-d35a-4e1a-b7b2-20a1394c62f3",
         "b432a78f-5c64-491e-b944-9c34d0cee9ca",
         "e9b29dbd-a55b-40a2-af5a-f738b23c7df3",
         "15515810-dabd-4566-acdc-576ed08dc406",
