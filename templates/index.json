@@ -151,17 +151,17 @@
             "collection": "i-love-lupe"
           }
         },
-        "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7": {
+        "1256b8f5-c520-492c-ab40-a4dbbd18934f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vizio-caffe-e-cucina"
+            "collection": "bourke-street-bakery"
           }
         }
       },
       "block_order": [
         "16291666415b86e5bb-0",
         "41a44903-970d-40f4-851d-4bc6e54c5f43",
-        "29e025f5-dd34-4d61-b9b1-5ce9c349d1f7"
+        "1256b8f5-c520-492c-ab40-a4dbbd18934f"
       ],
       "settings": {
         "title": "New to ChefPrep",
