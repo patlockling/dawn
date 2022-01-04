@@ -6,19 +6,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Great food without the fuss, courtesy of your Favourite Restaurants."
+            "heading": "I Love Lúpe Taco Kits are here!"
           }
         },
         "b7a6dd39-af8e-48e8-9a84-28a7e8e629ae": {
           "type": "text",
           "settings": {
-            "text": "No cooking required. Simply heat, eat and repeat."
+            "text": "Mix and match tacos with other meals"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Browse Meals",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "Browse Restaurants",
