@@ -84,7 +84,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Select_meals.png",
-            "title": "Say goodbye to ordering from one brand at a time!",
+            "title": "Say goodbye to ordering from one brand at a time",
             "text": "<p>Now you can select products from different restaurants and food producers in the one order (yes, it's pretty cool).<\/p>"
           }
         },
