@@ -76,7 +76,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Preparation",
-            "content": "<p>{{ product.metafields.meal.instructions_1 | metafield_tag }}<\/p><p>{{ product.metafields.meal.instructions_2 | metafield_tag }}<\/p><p>Please check the QR Code on the meal for heating and plating instructions.<\/p>",
+            "content": "<p>{{ product.metafields.meal.instructions_1 | metafield_tag }}<\/p><p>{{ product.metafields.meal.instructions_2 | metafield_tag }}<\/p><p><\/p>",
             "page": "",
             "icon": "none"
           }
