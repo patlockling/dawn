@@ -100,8 +100,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Heat_and_enjoy.png",
-            "title": "Once your meals arrive, all you need to do is follow the preparation instructions.",
-            "text": "<p>Don't worry, there is no cooking involved - just heating!<\/p>"
+            "title": "Once your products arrive, all you need to do is follow handy instructions",
+            "text": "<p>Products come with handy preparation and storage instructions to help you create great food experiences at home.<\/p>"
           }
         }
       },
