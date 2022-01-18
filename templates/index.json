@@ -84,24 +84,24 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Select_meals.png",
-            "title": "Say goodbye to ordering from one brand at a time",
-            "text": "<p>Now you can select products from different restaurants and food producers in the one order (yes, it's pretty cool).<\/p>"
+            "title": "We Source. You Choose.",
+            "text": "<p>Say goodbye to ordering from single brand at a time. Choosing from over 100 products from different restaurants and food producers around Australia in one cart. (YES, it's pretty cool!)<\/p>"
           }
         },
         "16288530998201db34-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Pick_delivery_date.png",
-            "title": "Select your delivery day & make some space for your delicious products",
-            "text": "<p>ChefPrep collects and packs your products with tender love and care and delivers them to your door.<\/p>"
+            "title": "We Deliver. You Relax.",
+            "text": "<p>Select your preferred delivery date and sit back. ChefPrep collects and packs your products with tender love and care and delivers them to your door. Hassle-free.<\/p>"
           }
         },
         "16288530998201db34-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Heat_and_enjoy.png",
-            "title": "Once your products arrive, all you need to do is follow handy instructions",
-            "text": "<p>Products come with handy preparation and storage instructions to help you create great food experiences at home.<\/p>"
+            "title": "You Enjoy. You Repeat.",
+            "text": "<p>Awaited moment! Once your products arrive, simply follow the handy instructions for storage and preparation. Taste, experience, and repeat.<\/p>"
           }
         }
       },
