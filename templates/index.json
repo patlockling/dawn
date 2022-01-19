@@ -139,16 +139,16 @@
     "16291666415b86e5bb": {
       "type": "collection-list",
       "blocks": {
-        "16291666415b86e5bb-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "butter"
-          }
-        },
         "41a44903-970d-40f4-851d-4bc6e54c5f43": {
           "type": "featured_collection",
           "settings": {
             "collection": "i-love-lupe"
+          }
+        },
+        "36cb3a78-3983-4246-96ab-f0aba62e1d2a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "old-bones-chilli-co"
           }
         },
         "1256b8f5-c520-492c-ab40-a4dbbd18934f": {
@@ -159,8 +159,8 @@
         }
       },
       "block_order": [
-        "16291666415b86e5bb-0",
         "41a44903-970d-40f4-851d-4bc6e54c5f43",
+        "36cb3a78-3983-4246-96ab-f0aba62e1d2a",
         "1256b8f5-c520-492c-ab40-a4dbbd18934f"
       ],
       "settings": {
