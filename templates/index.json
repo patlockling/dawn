@@ -302,6 +302,7 @@
     },
     "16288526342842f579": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "5116d4c4-8bdf-48a7-9342-d956360230e3": {
           "type": "column",
@@ -391,9 +392,9 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "secondary",
-        "button_label": "Check Out",
-        "button_link": "",
+        "background_style": "primary",
+        "button_label": "Check out all articles",
+        "button_link": "https:\/\/chefprep.com.au\/pages\/chefprep-in-media",
         "swipe_on_mobile": false
       }
     },
