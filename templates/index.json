@@ -353,41 +353,6 @@
         "swipe_on_mobile": false
       }
     },
-    "16309954415d71656e": {
-      "type": "rich-text",
-      "blocks": {
-        "1630995441e4183f28-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Free delivery on orders over $100",
-            "heading_size": "h1"
-          }
-        },
-        "1630995441e4183f28-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Delivering to suburbs across Sydney Metropolitan<\/p>"
-          }
-        },
-        "1630995441e4183f28-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Meals",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1630995441e4183f28-0",
-        "1630995441e4183f28-1",
-        "1630995441e4183f28-2"
-      ],
-      "settings": {
-        "color_scheme": "accent-1",
-        "full_width": true
-      }
-    },
     "1642748046a6aaa1be": {
       "type": "multicolumn",
       "blocks": {
@@ -426,10 +391,45 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "secondary",
+        "button_label": "Check Out",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "16309954415d71656e": {
+      "type": "rich-text",
+      "blocks": {
+        "1630995441e4183f28-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Free delivery on orders over $100",
+            "heading_size": "h1"
+          }
+        },
+        "1630995441e4183f28-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Delivering to suburbs across Sydney Metropolitan<\/p>"
+          }
+        },
+        "1630995441e4183f28-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Meals",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1630995441e4183f28-0",
+        "1630995441e4183f28-1",
+        "1630995441e4183f28-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
       }
     }
   },
@@ -443,7 +443,7 @@
     "1629167547f91b423f",
     "162885260804a4151a",
     "16288526342842f579",
-    "16309954415d71656e",
-    "1642748046a6aaa1be"
+    "1642748046a6aaa1be",
+    "16309954415d71656e"
   ]
 }
