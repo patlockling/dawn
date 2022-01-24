@@ -176,16 +176,10 @@
     "16291666415b86e5bb": {
       "type": "collection-list",
       "blocks": {
-        "41a44903-970d-40f4-851d-4bc6e54c5f43": {
+        "0ee9eda0-7c76-4ddb-a399-aa6877f58434": {
           "type": "featured_collection",
           "settings": {
-            "collection": "i-love-lupe"
-          }
-        },
-        "36cb3a78-3983-4246-96ab-f0aba62e1d2a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "old-bones-chilli-co"
+            "collection": "ogs"
           }
         },
         "1256b8f5-c520-492c-ab40-a4dbbd18934f": {
@@ -194,19 +188,17 @@
             "collection": "bourke-street-bakery"
           }
         },
-        "0ee9eda0-7c76-4ddb-a399-aa6877f58434": {
+        "36cb3a78-3983-4246-96ab-f0aba62e1d2a": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "old-bones-chilli-co"
           }
         }
       },
       "block_order": [
-        "41a44903-970d-40f4-851d-4bc6e54c5f43",
-        "36cb3a78-3983-4246-96ab-f0aba62e1d2a",
+        "0ee9eda0-7c76-4ddb-a399-aa6877f58434",
         "1256b8f5-c520-492c-ab40-a4dbbd18934f",
-        "0ee9eda0-7c76-4ddb-a399-aa6877f58434"
+        "36cb3a78-3983-4246-96ab-f0aba62e1d2a"
       ],
       "settings": {
         "title": "New to ChefPrep",
