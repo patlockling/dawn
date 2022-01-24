@@ -94,6 +94,10 @@
   width: 100%;
 }
 
+.banner__media > img {
+  object-position: 100% 50%;
+}
+
 .banner__content {
   padding: 0;
   display: flex;
