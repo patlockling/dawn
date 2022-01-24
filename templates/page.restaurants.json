@@ -131,6 +131,12 @@
             "collection": "mordeo-bistro-bar"
           }
         },
+        "c273f9bb-ec1a-4018-b66f-1861ad396691": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ogs"
+          }
+        },
         "b4fdb714-957a-44dc-bec2-d8a1ab3a8642": {
           "type": "featured_collection",
           "settings": {
@@ -173,6 +179,7 @@
         "b432a78f-5c64-491e-b944-9c34d0cee9ca",
         "e9b29dbd-a55b-40a2-af5a-f738b23c7df3",
         "15515810-dabd-4566-acdc-576ed08dc406",
+        "c273f9bb-ec1a-4018-b66f-1861ad396691",
         "b4fdb714-957a-44dc-bec2-d8a1ab3a8642",
         "953959ba-fe5b-425f-8b3e-35b5bc260ce3",
         "16336742941a0074c2-0",
