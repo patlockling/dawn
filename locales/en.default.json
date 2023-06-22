@@ -385,15 +385,5 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
-  },
-  "shopify": {
-    "filters": {
-      "vendor": {
-        "label": "Restaurant"
-      },
-      "product_type": {
-        "label": "Cuisine"
-      }
-    }
   }
 }
